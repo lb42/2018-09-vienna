@@ -61,25 +61,35 @@
             </list>
          </div>
          <div type="no-enumeration">
+            <!--
+               1. Fri: XML and <oXygen/> (Vilnius 1. expanded)
+               2. Fri: TEI (Vilnius 3, expanded)
+               3. Fri: Transformation (Vilnius 9 and 10)
+               4. Sun: Description (Vilnius 3–5)
+               5. Sun: Transcription (Vilnius 6–8)
+               6. Mon: Applications (apply transformation from session 3 to manuscript materials)
+            -->
             <head>Workshop schedule</head>
             <div>
-               <head>Tuesday 23 August</head>
+               <head>Friday, 14 September</head>
                <list>
-                  <item>Session 1, 17h15 - 18h15 : Introduction to XML [DB] (<ref
-                        target="Slides/xml_intro.pptx.pdf">slides <graphic url="images/pdf.gif"
-                        /></ref>)</item>
+                  <item>Session 1: Introduction to XML (<ref target="Slides/xml_intro.pptx.pdf"
+                           >slides<graphic url="images/pdf.gif"/></ref>)</item>
+                  <item>Session 2: Introduction to TEI (<ref target="Slides/talk-tei.pdf"
+                           >slides<graphic url="images/pdf.gif"/></ref>)</item>
+                  <item>Session 3: TEI Tools [LB] (<ref target="Slides/talk-tools.pdf"
+                           >slides<graphic url="images/pdf.gif"/></ref>, <ref
+                        target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>)
+                  </item>
                </list>
             </div>
             <div>
-               <head>Wednesday 24 August </head>
+               <head>Sunday, 16 September</head>
                <list>
-                  <item>Session 2, 14h30 - 15h30 : Introduction to TEI [LB] (<ref
-                        target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"
-                     /></ref>)</item>
-
-                  <item>Session 3, 16h - 17h : Manuscript description [DB] (<ref
+                  <item>Session 4: Manuscript description (<ref
                         target="Slides/manuscript-description.pptx.pdf">slides</ref>
-                     <graphic url="images/pdf.gif"/>)<list>
+                     <graphic url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf"
+                           >exercise<graphic url="images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina
                                  Apostol</title></ref> (XML file)</item>
@@ -88,9 +98,11 @@
                               >Section 10 of TEI P5: Manuscript description</ref></item>
                         <item><ref target="http://eslavsanct.net/home.php?text=Sources"
                                  ><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
-                        <item><ref target="http://searcharchives.bl.uk">The Gospels of Tsar Ivan
-                              Alexander</ref> (search for <q>Ivan Alexander</q>; UK, London, British
-                           Library, Add MS 39627; in English)</item>
+                        <item><ref
+                              target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2"
+                              >The Gospels of Tsar Ivan Alexander</ref> (search for <q>Ivan
+                              Alexander</q>; UK, London, British Library, Add MS 39627; in
+                           English)</item>
                         <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s
                               menologion</ref> (September, October, November; in Bulgarian)</item>
                         <item>Manuscripts at <ref
@@ -100,40 +112,21 @@
                               the Árni Magnússon Institute, Reykjavík</ref> (in Icelandic; some
                            content also in English and Danish)</item>
                      </list></item>
+                  <item>Session 5: Manuscript transcription (<ref
+                        target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"
+                        /></ref>) </item>
                </list>
             </div>
             <div>
-               <head>Thursday 25 August</head>
+               <head>Monday, 17 September</head>
                <list>
-                  <item>Session 4, 09h - 10h : Manuscript description [LB] <ref
-                        target="Work/ex-msdesc.pdf">practical exercise</ref></item>
-                  <item>Coffee break</item>
-                  <item>Session 5, 10h30 - 11h30 : Manuscript description [LB] practical
-                     continues</item>
-                  <item>Session 6, 11h45 - 12h45 : An Introduction to Manuscript transcription [LB]
-                        (<ref target="Slides/talk-transcription.pdf"> slides</ref>
-                     <graphic url="images/pdf.gif"/>) </item>
-                  <!-- lunch -->
-                  <item>Session 7, 13h45 - 14h45 : Manuscript transcription [DB] practical 1 </item>
-                  <item>Session 8, 15h - 16h : Manuscript transcription [DB] practical 2</item>
-               </list>
-            </div>
-            <div>
-               <head>Friday 26 August</head>
-               <list>
-                  <item>Session 9, 09h - 10h : TEI Tools [LB] (<ref target="Slides/talk-tools.pdf"
-                        >Slides</ref>) </item>
-                  <item>Session 10, 10h30 - 11h30 : TEI Tools [LB] <ref target="Work/ex-xslt.pdf"
-                        >exercise</ref>
-                  </item>
-                  <item>Session 11, 1145 - 12h45 : Taking stock [DB] <list>
+                  <item>Session 6: Taking stock <list>
                         <item>Sample XML projects at <ref target="http://www.obdurodon.org"
                               >http://www.obdurodon.org</ref> and <ref
-                              target="http://www.obdurodon.org">http://dh.obdurodon.org</ref>
+                              target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
                            (student course projects)</item>
-                        <item>What next (<ref target="Slides/what-next.pptx.pdf">slides <graphic
+                        <item>What next (<ref target="Slides/what-next.pptx.pdf">slides<graphic
                                  url="images/pdf.gif"/></ref>)</item>
-                        <!-- add TEI community slides? -->
                      </list>
                   </item>
                </list>
@@ -195,15 +188,15 @@
                      <graphic url="images/pdf.gif"/> (Andrej Bojadžiev, <title>Scripta &amp;
                         e-Scripta</title> 10–11 (2012): 9–103)</item>
                   <item>
-                     <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/">
-                        <title>ВВЕДЕНИЕ В TEI И XML</title> (Lou Burnard, Alexei Lavrentev, and
-                        Tatiana Timcenko)</ref>;</item>
+                     <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/"><title>Введение в TEI
+                           и XML</title></ref> (Lou Burnard, Alexei Lavrentev, and Tatiana
+                     Timcenko)</item>
                   <item><ref
                         target="http://tei.it.ox.ac.uk/Talks/2014-07-dhoxss-tei/Slides/talk-editing-5.pdf"
-                        > Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI
-                        for Text Bearing Objects </ref> (slides from <ref
-                        target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html"> DHOXSS
-                        2014 Workshop)</ref>
+                        >Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI
+                        for Text Bearing Objects</ref> (slides from <ref
+                        target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html">DHOXSS 2014
+                        Workshop)</ref>
                   </item>
                   <item><ref target="http://varna.obdurodon.org/TEI-general2014.ppt.pdf">The
                         transcription and description of primary sources using TEI conformant
@@ -212,7 +205,6 @@
                            <q>Computational methods in the humanities</q></ref> course (see also
                         <ref target="http://www.obdurodon.org">links to projects</ref>)</item>
                   <item>Genetic editions <list>
-                        <item><!-- goethe edition link --></item>
                         <item><ref target="http://research.cch.kcl.ac.uk/proust_prototype/">Proust
                               prototype</ref></item>
                         <item><ref target="http://shelleygodwinarchive.org/contents/frankenstein"
@@ -240,12 +232,11 @@
                   <item>The goal of <ref target="http://www.e-codices.unifr.ch/">e-codices</ref>
                      (Virtual manuscript library of Switzerland) is to provide access to all
                      medieval and selected early modern manuscripts of Switzerland via a virtual
-                     library. At the moment, the virtual library contains 981 manuscripts from 42
-                     different libraries, with more planned, and in addition to the general web
-                     site, a free iOS app is available in the <ref
-                        target="http://e-codices.textandbytes.com/">Apple store</ref>. Note the
-                     integration of overview, facsimile, and formatted descriptions, and the
-                     provision of the raw XML.</item>
+                     library. At the moment, the virtual library contains 2048 manuscripts from 84
+                     different collections. In addition to the general web site, a free iOS app is
+                     available in the <ref target="http://e-codices.textandbytes.com/">Apple
+                        store</ref>. Note the integration of overview, facsimile, and formatted
+                     descriptions, and the provision of the raw XML.</item>
                   <item><ref target="http://handrit.is/en/">handrit.is</ref> is an analytical
                      catalog of Icelandic manuscripts currently held in several institutions. It
                      provides sophisticated browsing and search facilities and has an integrated
