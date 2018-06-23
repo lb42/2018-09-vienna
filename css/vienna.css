@@ -1,0 +1,65 @@
+img.steinertor {
+    max-width: 468px;
+    width: 40%;
+    float: right;
+    margin: 0 0 1em 1em;
+    border: none;
+}
+td.day {
+    font-size: larger;
+    text-align: center;
+    background-color: lightgray;
+}
+h1 {
+    counter-reset: h2;
+}
+h2 {
+    counter-reset: h3;
+}
+h2:before {
+    counter-increment: h2;
+    content: counter(h2) '. ';
+}
+h3 {
+    counter-reset: h4;
+}
+h3:before {
+    counter-increment: h3;
+    content: counter(h2) '.' counter(h3) '. ';
+}
+.no-enumeration h3:before {
+    content: '';
+}
+h4:before {
+    counter-increment: h4;
+    content: counter(h2) '.' counter(h3) '.' counter(h4) '. ';
+}
+ol,
+ol > li > ol {
+    list-style: none;
+}
+#contents > li {
+    counter-increment: contents-1;
+}
+#contents > li:before {
+    content: counter(contents-1) '. ';
+}
+#contents > li > ol > li {
+    counter-increment: contents-2;
+}
+#contents > li.no-enumeration > ol > li:before {
+    content: '';
+}
+#contents > li > ol > li:before {
+    content: counter(contents-1) '.' counter(contents-2) '. ';
+}
+#contents > li > ol > li > ol > li {
+    counter-increment: contents-3;
+}
+#contents > li > ol > li > ol > li:before {
+    content: counter(contents-1) '.' counter(contents-2) '.' counter(contents-3) '. ';
+}
+#schedule > p {
+    font-weight: bold;
+    font-size: larger;
+}
