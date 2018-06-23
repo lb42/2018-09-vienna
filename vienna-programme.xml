@@ -10,8 +10,11 @@
             <p>Unpublished workshop notes for ElManuscript 2018, Vienna and Krems</p>
          </publicationStmt>
          <sourceDesc>
-            <p>TEI-ified and modified from DJB's <ref target="http://varna.obdurodon.org/">HTML
-                  source for Varna Workshop</ref> and <ref target="http://vilnius.obdurodon.org">XML
+            <p>TEI-ified and modified from DJB's
+               <ref target="http://varna.obdurodon.org/">HTML
+                  source for Varna Workshop</ref>
+               and
+               <ref target="http://vilnius.obdurodon.org">XML
                   and TEI for Slavic philology (Vilnius 2016)</ref></p>
          </sourceDesc>
       </fileDesc>
@@ -23,38 +26,43 @@
       <body>
          <div>
             <head>Description and goals</head>
-            <p>This three-day hands-on workshop provides nine hours of instruction in using <ref
-                  target="http://dh.obdurodon.org/what-is-xml.xhtml">eXtensible Markup Language
-                  (XML)</ref> and the <ref
-                  target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text
-                  Encoding Initiative (TEI) guidelines</ref> for the encoding and description of
-               medieval manuscript materials. The instructors are:</p>
+            <p>This three-day hands-on workshop provides nine hours of instruction in using
+               <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">eXtensible Markup Language
+                  (XML)</ref>
+               and the
+               <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text
+                  Encoding Initiative (TEI) guidelines</ref>
+               for the encoding and description of medieval manuscript materials. The instructors
+               are:</p>
             <list>
                <item>David J. Birnbaum, a medieval Slavic philologist who teaches digital humanities
-                  at the University of Pittsburgh (<ref target="mailto:djbpitt@gmail.com"
-                     >djbpitt@gmail.com</ref>, <ref target="http://www.obdurodon.org"
-                     >http://www.obdurodon.org</ref>)</item>
+                  at the University of Pittsburgh
+                  (<ref target="mailto:djbpitt@gmail.com">djbpitt@gmail.com</ref>,
+                  <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref>)</item>
                <item>Lou Burnard, formerly assistant director at Oxford University Computing
-                  Services, and one of the original editors of the Text Encoding Initiative. (<ref
-                     target="mailto:lou.burnard@gmail.com">lou,burnard@gmail.com</ref>, <ref
-                     target="http://about.me/louburnard">http://users.ox.ac.uk/~lou</ref>)</item>
+                  Services, and one of the original editors of the Text Encoding Initiative.
+                  (<ref target="mailto:lou.burnard@gmail.com">lou,burnard@gmail.com</ref>,
+                  <ref target="http://about.me/louburnard">http://users.ox.ac.uk/~lou</ref>)</item>
             </list>
-            <p>The workshop is part of the <ref target="http://textualheritage.org/en/2018.html"
-                  >Textual heritage and information technologies (El’Manuscript-2018)
-                  conference</ref>, Vienna and Krems, Austria, 2018-09-14–2018-09-18.</p>
+            <p>The workshop is part of the
+               <ref target="http://textualheritage.org/en/2018.html">Textual heritage and information technologies (El’Manuscript-2018)
+                  conference</ref>,
+               Vienna and Krems, Austria, 2018-09-14–2018-09-18.</p>
          </div>
          <div>
             <head>Before the workshop</head>
             <list>
-               <item><hi>Download the &lt;oXgyen/&gt; XML editor</hi> from <ref
-                     target="http://www.oxygenxml.com">http://www.oxygenxml.com</ref> and install it
-                  on your laptop. You will need to request a free, fully-functional thirty-day
+               <item><hi>Download the &lt;oXgyen/&gt; XML editor</hi> from
+                  <ref target="http://www.oxygenxml.com">http://www.oxygenxml.com</ref> and install
+                  it on your laptop. You will need to request a free, fully-functional thirty-day
                   license, which you can do at the download site.</item>
-               <item>Read: <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">An even gentler
+               <item>Read:
+                  <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">An even gentler
                      introduction to XML</ref>.</item>
-               <item>If you have time, also read <ref target="http://books.openedition.org/oep/426"
-                     >What is the Text Encoding Initiative?</ref> (also available <ref
-                     target="http://books.openedition.org/oep/1237">in French</ref>) </item>
+               <item>If you have time, also read
+                  <ref target="http://books.openedition.org/oep/426">What is the Text Encoding Initiative?</ref>
+                  (also available
+                  <ref target="http://books.openedition.org/oep/1237">in French</ref>) </item>
                <item>In the hands-on portion of the workshop we will mostly work with Church
                   Slavonic manuscript materials. If you prefer, you are welcome instead to bring
                   your own materials (plain-text manuscript descriptions or transcriptions).</item>
@@ -73,60 +81,56 @@
             <div>
                <head>Friday, 14 September</head>
                <list>
-                  <item>Session 1: Introduction to XML (<ref target="Slides/xml_intro.pptx.pdf"
-                           >slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 2: Introduction to TEI (<ref target="Slides/talk-tei.pdf"
-                           >slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 3: TEI Tools [LB] (<ref target="Slides/talk-tools.pdf"
-                           >slides<graphic url="images/pdf.gif"/></ref>, <ref
-                        target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>)
+                  <item>Session 1: Introduction to XML
+                     (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                  <item>Session 2: Introduction to TEI
+                     (<ref target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                  <item>Session 3: TEI Tools [LB]
+                     (<ref target="Slides/talk-tools.pdf">slides<graphic url="images/pdf.gif"/></ref>,
+                     <ref target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>)
                   </item>
                </list>
             </div>
             <div>
                <head>Sunday, 16 September</head>
                <list>
-                  <item>Session 4: Manuscript description (<ref
-                        target="Slides/manuscript-description.pptx.pdf">slides</ref>
-                     <graphic url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf"
-                           >exercise<graphic url="images/pdf.gif"/></ref>)<list>
+                  <item>Session 4: Manuscript description
+                        (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
+                        url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina
-                                 Apostol</title></ref> (XML file)</item>
-                        <item><ref
-                              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html"
-                              >Section 10 of TEI P5: Manuscript description</ref></item>
-                        <item><ref target="http://eslavsanct.net/home.php?text=Sources"
-                                 ><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
-                        <item><ref
-                              target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2"
-                              >The Gospels of Tsar Ivan Alexander</ref> (search for <q>Ivan
-                              Alexander</q>; UK, London, British Library, Add MS 39627; in
-                           English)</item>
+                                 Apostol</title></ref>
+                           (XML file)</item>
+                        <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Section 10 of TEI P5: Manuscript description</ref></item>
+                        <item><ref target="http://eslavsanct.net/home.php?text=Sources"><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
+                        <item><ref target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2">The Gospels of Tsar Ivan Alexander</ref>
+                           (search for <q>Ivan Alexander</q>; UK, London, British Library, Add MS
+                           39627; in English)</item>
                         <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s
-                              menologion</ref> (September, October, November; in Bulgarian)</item>
-                        <item>Manuscripts at <ref
-                              target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment
+                              menologion</ref>
+                           (September, October, November; in Bulgarian)</item>
+                        <item>Manuscripts at
+                           <ref target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment
                               Oxridski University, Sofia</ref></item>
                         <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at
-                              the Árni Magnússon Institute, Reykjavík</ref> (in Icelandic; some
-                           content also in English and Danish)</item>
+                              the Árni Magnússon Institute, Reykjavík</ref>
+                           (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
-                  <item>Session 5: Manuscript transcription (<ref
-                        target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"
-                        /></ref>) </item>
+                  <item>Session 5: Manuscript transcription
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>)
+                  </item>
                </list>
             </div>
             <div>
                <head>Monday, 17 September</head>
                <list>
                   <item>Session 6: Taking stock <list>
-                        <item>Sample XML projects at <ref target="http://www.obdurodon.org"
-                              >http://www.obdurodon.org</ref> and <ref
-                              target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
+                        <item>Sample XML projects at
+                           <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
+                           <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
                            (student course projects)</item>
-                        <item>What next (<ref target="Slides/what-next.pptx.pdf">slides<graphic
-                                 url="images/pdf.gif"/></ref>)</item>
+                        <item>What next
+                           (<ref target="Slides/what-next.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
                      </list>
                   </item>
                </list>
@@ -155,7 +159,8 @@
                      <item><ref target="http://menology.obdurodon.org/">Medieval Slavic
                            menologies</ref></item>
                      <item><ref target="http://repertorium.obdurodon.org/dev/test.xhtml">Plectogram
-                           sample</ref> (Physiologus texts in the Repertorium corpus)</item>
+                           sample</ref>
+                        (Physiologus texts in the Repertorium corpus)</item>
                   </list>
                </div>
                <div>
@@ -173,43 +178,37 @@
             <div>
                <head>XML and TEI</head>
                <list>
-                  <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html"
-                        >The TEI Guidelines</ref><list>
-                        <item><ref
-                              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html"
-                              >Chapter 10: Manuscript description</ref></item>
-                        <item><ref
-                              target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html"
-                              >Chapter 11: Representation of primary sources</ref></item>
+                  <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">The TEI Guidelines</ref><list>
+                        <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Chapter 10: Manuscript description</ref></item>
+                        <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html">Chapter 11: Representation of primary sources</ref></item>
                      </list></item>
-                  <item><ref target="http://repertorium.obdurodon.org/Bojadziev_Scripta_11.pdf"
-                        >Guidelines to Repertorium Initiative XML model for manuscript
+                  <item><ref target="http://repertorium.obdurodon.org/Bojadziev_Scripta_11.pdf">Guidelines to Repertorium Initiative XML model for manuscript
                         descriptions</ref>
                      <graphic url="images/pdf.gif"/> (Andrej Bojadžiev, <title>Scripta &amp;
                         e-Scripta</title> 10–11 (2012): 9–103)</item>
                   <item>
                      <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/"><title>Введение в TEI
-                           и XML</title></ref> (Lou Burnard, Alexei Lavrentev, and Tatiana
-                     Timcenko)</item>
-                  <item><ref
-                        target="http://tei.it.ox.ac.uk/Talks/2014-07-dhoxss-tei/Slides/talk-editing-5.pdf"
-                        >Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI
-                        for Text Bearing Objects</ref> (slides from <ref
-                        target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html">DHOXSS 2014
+                           и XML</title></ref>
+                     (Lou Burnard, Alexei Lavrentev, and Tatiana Timcenko)</item>
+                  <item><ref target="http://tei.it.ox.ac.uk/Talks/2014-07-dhoxss-tei/Slides/talk-editing-5.pdf">Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI
+                        for Text Bearing Objects</ref>
+                     (slides from
+                     <ref target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html">DHOXSS 2014
                         Workshop)</ref>
                   </item>
                   <item><ref target="http://varna.obdurodon.org/TEI-general2014.ppt.pdf">The
                         transcription and description of primary sources using TEI conformant
-                        XML</ref> (Matthew J. Driscoll, Arnamagnæan Institute)</item>
+                        XML</ref>
+                     (Matthew J. Driscoll, Arnamagnæan Institute)</item>
                   <item><ref target="http://dh.obdurodon.org">Materials from David J. Birnbaum’s
-                           <q>Computational methods in the humanities</q></ref> course (see also
-                        <ref target="http://www.obdurodon.org">links to projects</ref>)</item>
+                           <q>Computational methods in the humanities</q></ref>
+                     course (see also
+                     <ref target="http://www.obdurodon.org">links to projects</ref>)</item>
                   <item>Genetic editions <list>
                         <item><ref target="http://research.cch.kcl.ac.uk/proust_prototype/">Proust
                               prototype</ref></item>
-                        <item><ref target="http://shelleygodwinarchive.org/contents/frankenstein"
-                              >The <title>Frankenstein</title> notebooks</ref> (sample project from
-                           the Shelley-Godwin Archive)</item>
+                        <item><ref target="http://shelleygodwinarchive.org/contents/frankenstein">The <title>Frankenstein</title> notebooks</ref>
+                           (sample project from the Shelley-Godwin Archive)</item>
                      </list></item>
                </list>
             </div>
@@ -221,22 +220,27 @@
                   types of analysis and visualization. All provide access to the underlying raw
                   XML.</p>
                <list>
-                  <item>The <ref target="http://repertorium.obdurodon.org">Repertorium of Old
-                        Bulgarian literature and letters</ref> provides analytical descriptions of
-                     over one hundred early Slavic manuscripts, with tools for searching by
-                     repository information and by textual content. The prototype <ref
-                        target="http://repertorium.obdurodon.org/dev/test.xhtml">plectogram of
-                        Physiologus texts</ref> is an early view of functionality currently under
-                     development to adding drag-and-drop support to a graphic representation of
-                     textual correspondences within the corpus.</item>
+                  <item>The
+                     <ref target="http://repertorium.obdurodon.org">Repertorium of Old
+                        Bulgarian literature and letters</ref>
+                     provides analytical descriptions of over one hundred early Slavic manuscripts,
+                     with tools for searching by repository information and by textual content. The
+                     prototype
+                     <ref target="http://repertorium.obdurodon.org/dev/test.xhtml">plectogram of
+                        Physiologus texts</ref>
+                     is an early view of functionality currently under development to adding
+                     drag-and-drop support to a graphic representation of textual correspondences
+                     within the corpus.</item>
                   <item>The goal of <ref target="http://www.e-codices.unifr.ch/">e-codices</ref>
                      (Virtual manuscript library of Switzerland) is to provide access to all
                      medieval and selected early modern manuscripts of Switzerland via a virtual
                      library. At the moment, the virtual library contains 2048 manuscripts from 84
                      different collections. In addition to the general web site, a free iOS app is
-                     available in the <ref target="http://e-codices.textandbytes.com/">Apple
-                        store</ref>. Note the integration of overview, facsimile, and formatted
-                     descriptions, and the provision of the raw XML.</item>
+                     available in the
+                     <ref target="http://e-codices.textandbytes.com/">Apple
+                        store</ref>.
+                     Note the integration of overview, facsimile, and formatted descriptions, and
+                     the provision of the raw XML.</item>
                   <item><ref target="http://handrit.is/en/">handrit.is</ref> is an analytical
                      catalog of Icelandic manuscripts currently held in several institutions. It
                      provides sophisticated browsing and search facilities and has an integrated

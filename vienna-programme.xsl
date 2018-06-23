@@ -4,7 +4,7 @@
     xmlns:math="http://www.w3.org/2005/xpath-functions/math" exclude-result-prefixes="#all"
     version="3.0" xpath-default-namespace="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.w3.org/1999/xhtml">
-    <xsl:output method="xml" indent="yes" doctype-system="about:legacy-compat"/>
+    <xsl:output method="xml" indent="no" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html>
             <!--#config timefmt="%Y-%m-%dT%X%z" -->
