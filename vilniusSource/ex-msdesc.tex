@@ -1,0 +1,490 @@
+\documentclass[11pt,twoside]{article}\makeatletter
+
+\IfFileExists{xcolor.sty}%
+  {\RequirePackage{xcolor}}%
+  {\RequirePackage{color}}
+\usepackage{colortbl}
+\usepackage{wrapfig}
+\usepackage{ifxetex}
+\ifxetex
+  \usepackage{fontspec}
+  \usepackage{xunicode}
+  \catcode`⃥=\active \def⃥{\textbackslash}
+  \catcode`❴=\active \def❴{\{}
+  \catcode`❵=\active \def❵{\}}
+  \def\textJapanese{\fontspec{IPAMincho}}
+  \def\textChinese{\fontspec{HAN NOM A}\XeTeXlinebreaklocale "zh"\XeTeXlinebreakskip = 0pt plus 1pt }
+  \def\textKorean{\fontspec{Baekmuk Gulim} }
+  \setmonofont{Droid Sans Mono}
+  
+\else
+  \IfFileExists{utf8x.def}%
+   {\usepackage[utf8x]{inputenc}
+      \PrerenderUnicode{–}
+    }%
+   {\usepackage[utf8]{inputenc}}
+  \usepackage[english]{babel}
+  \usepackage[T1]{fontenc}
+  \usepackage{float}
+  \usepackage[]{ucs}
+  \uc@dclc{8421}{default}{\textbackslash }
+  \uc@dclc{10100}{default}{\{}
+  \uc@dclc{10101}{default}{\}}
+  \uc@dclc{8491}{default}{\AA{}}
+  \uc@dclc{8239}{default}{\,}
+  \uc@dclc{20154}{default}{ }
+  \uc@dclc{10148}{default}{>}
+  \def\textschwa{\rotatebox{-90}{e}}
+  \def\textJapanese{}
+  \def\textChinese{}
+  \IfFileExists{tipa.sty}{\usepackage{tipa}}{}
+  \usepackage{times}
+\fi
+\def\exampleFont{\ttfamily\small}
+\DeclareTextSymbol{\textpi}{OML}{25}
+\usepackage{relsize}
+\RequirePackage{array}
+\def\@testpach{\@chclass
+ \ifnum \@lastchclass=6 \@ne \@chnum \@ne \else
+  \ifnum \@lastchclass=7 5 \else
+   \ifnum \@lastchclass=8 \tw@ \else
+    \ifnum \@lastchclass=9 \thr@@
+   \else \z@
+   \ifnum \@lastchclass = 10 \else
+   \edef\@nextchar{\expandafter\string\@nextchar}%
+   \@chnum
+   \if \@nextchar c\z@ \else
+    \if \@nextchar l\@ne \else
+     \if \@nextchar r\tw@ \else
+   \z@ \@chclass
+   \if\@nextchar |\@ne \else
+    \if \@nextchar !6 \else
+     \if \@nextchar @7 \else
+      \if \@nextchar (8 \else
+       \if \@nextchar )9 \else
+  10
+  \@chnum
+  \if \@nextchar m\thr@@\else
+   \if \@nextchar p4 \else
+    \if \@nextchar b5 \else
+   \z@ \@chclass \z@ \@preamerr \z@ \fi \fi \fi \fi
+   \fi \fi  \fi  \fi  \fi  \fi  \fi \fi \fi \fi \fi \fi}
+\gdef\arraybackslash{\let\\=\@arraycr}
+\def\@textsubscript#1{{\m@th\ensuremath{_{\mbox{\fontsize\sf@size\z@#1}}}}}
+\def\Panel#1#2#3#4{\multicolumn{#3}{){\columncolor{#2}}#4}{#1}}
+\def\abbr{}
+\def\corr{}
+\def\expan{}
+\def\gap{}
+\def\orig{}
+\def\reg{}
+\def\ref{}
+\def\sic{}
+\def\persName{}\def\name{}
+\def\placeName{}
+\def\orgName{}
+\def\textcal#1{{\fontspec{Lucida Calligraphy}#1}}
+\def\textgothic#1{{\fontspec{Lucida Blackletter}#1}}
+\def\textlarge#1{{\large #1}}
+\def\textoverbar#1{\ensuremath{\overline{#1}}}
+\def\textquoted#1{‘#1’}
+\def\textsmall#1{{\small #1}}
+\def\textsubscript#1{\@textsubscript{\selectfont#1}}
+\def\textxi{\ensuremath{\xi}}
+\def\titlem{\itshape}
+\newenvironment{biblfree}{}{\ifvmode\par\fi }
+\newenvironment{bibl}{}{}
+\newenvironment{byline}{\vskip6pt\itshape\fontsize{16pt}{18pt}\selectfont}{\par }
+\newenvironment{citbibl}{}{\ifvmode\par\fi }
+\newenvironment{docAuthor}{\ifvmode\vskip4pt\fontsize{16pt}{18pt}\selectfont\fi\itshape}{\ifvmode\par\fi }
+\newenvironment{docDate}{}{\ifvmode\par\fi }
+\newenvironment{docImprint}{\vskip 6pt}{\ifvmode\par\fi }
+\newenvironment{docTitle}{\vskip6pt\bfseries\fontsize{18pt}{22pt}\selectfont}{\par }
+\newenvironment{msHead}{\vskip 6pt}{\par}
+\newenvironment{msItem}{\vskip 6pt}{\par}
+\newenvironment{rubric}{}{}
+\newenvironment{titlePart}{}{\par }
+
+\newcolumntype{L}[1]{){\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{){\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{){\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{P}[1]{){\arraybackslash}p{#1}}
+\newcolumntype{B}[1]{){\arraybackslash}b{#1}}
+\newcolumntype{M}[1]{){\arraybackslash}m{#1}}
+\definecolor{label}{gray}{0.75}
+\def\unusedattribute#1{\sout{\textcolor{label}{#1}}}
+\DeclareRobustCommand*{\xref}{\hyper@normalise\xref@}
+\def\xref@#1#2{\hyper@linkurl{#2}{#1}}
+\begingroup
+\catcode`\_=\active
+\gdef_#1{\ensuremath{\sb{\mathrm{#1}}}}
+\endgroup
+\mathcode`\_=\string"8000
+\catcode`\_=12\relax
+
+\usepackage[a4paper,twoside,lmargin=1in,rmargin=1in,tmargin=1in,bmargin=1in,marginparwidth=0.75in]{geometry}
+\usepackage{framed}
+
+\definecolor{shadecolor}{gray}{0.95}
+\usepackage{longtable}
+\usepackage[normalem]{ulem}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{marginnote}
+
+
+\renewcommand*{\marginfont}{\itshape\footnotesize}
+
+\def\Gin@extensions{.pdf,.png,.jpg,.mps,.tif}
+
+  \pagestyle{fancy}
+
+\usepackage[pdftitle={Creating a Manuscript Description},
+ pdfauthor={TEI @ Oxford}]{hyperref}
+\hyperbaseurl{}
+
+	 \paperwidth210mm
+	 \paperheight297mm
+              
+\def\@pnumwidth{1.55em}
+\def\@tocrmarg {2.55em}
+\def\@dotsep{4.5}
+\setcounter{tocdepth}{3}
+\clubpenalty=8000
+\emergencystretch 3em
+\hbadness=4000
+\hyphenpenalty=400
+\pretolerance=750
+\tolerance=2000
+\vbadness=4000
+\widowpenalty=10000
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+     {-1.75ex \@plus -0.5ex \@minus -.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\Large\bfseries\sffamily}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+     {-1.75ex\@plus -0.5ex \@minus- .2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\Large\sffamily}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+     {-1.5ex\@plus -0.35ex \@minus -.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\large\sffamily}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+     {-1ex \@plus-0.35ex \@minus -0.2ex}%
+     {0.5ex \@plus .2ex}%
+     {\reset@font\normalsize\sffamily}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+     {1.5ex \@plus1ex \@minus .2ex}%
+     {-1em}%
+     {\reset@font\normalsize\bfseries}}
+
+
+\def\l@section#1#2{\addpenalty{\@secpenalty} \addvspace{1.0em plus 1pt}
+ \@tempdima 1.5em \begingroup
+ \parindent \z@ \rightskip \@pnumwidth 
+ \parfillskip -\@pnumwidth 
+ \bfseries \leavevmode #1\hfil \hbox to\@pnumwidth{\hss #2}\par
+ \endgroup}
+\def\l@subsection{\@dottedtocline{2}{1.5em}{2.3em}}
+\def\l@subsubsection{\@dottedtocline{3}{3.8em}{3.2em}}
+\def\l@paragraph{\@dottedtocline{4}{7.0em}{4.1em}}
+\def\l@subparagraph{\@dottedtocline{5}{10em}{5em}}
+\@ifundefined{c@section}{\newcounter{section}}{}
+\@ifundefined{c@chapter}{\newcounter{chapter}}{}
+\newif\if@mainmatter 
+\@mainmattertrue
+\def\chaptername{Chapter}
+\def\frontmatter{%
+  \pagenumbering{roman}
+  \def\thechapter{\@roman\c@chapter}
+  \def\theHchapter{\roman{chapter}}
+  \def\thesection{\@roman\c@section}
+  \def\theHsection{\roman{section}}
+  \def\@chapapp{}%
+}
+\def\mainmatter{%
+  \cleardoublepage
+  \def\thechapter{\@arabic\c@chapter}
+  \setcounter{chapter}{0}
+  \setcounter{section}{0}
+  \pagenumbering{arabic}
+  \setcounter{secnumdepth}{6}
+  \def\@chapapp{\chaptername}%
+  \def\theHchapter{\arabic{chapter}}
+  \def\thesection{\@arabic\c@section}
+  \def\theHsection{\arabic{section}}
+}
+\def\backmatter{%
+  \cleardoublepage
+  \setcounter{chapter}{0}
+  \setcounter{section}{0}
+  \setcounter{secnumdepth}{2}
+  \def\@chapapp{\appendixname}%
+  \def\thechapter{\@Alph\c@chapter}
+  \def\theHchapter{\Alph{chapter}}
+  \appendix
+}
+\newenvironment{bibitemlist}[1]{%
+   \list{\@biblabel{\@arabic\c@enumiv}}%
+       {\settowidth\labelwidth{\@biblabel{#1}}%
+        \leftmargin\labelwidth
+        \advance\leftmargin\labelsep
+        \@openbib@code
+        \usecounter{enumiv}%
+        \let\p@enumiv\@empty
+        \renewcommand\theenumiv{\@arabic\c@enumiv}%
+	}%
+  \sloppy
+  \clubpenalty4000
+  \@clubpenalty \clubpenalty
+  \widowpenalty4000%
+  \sfcode`\.\@m}%
+  {\def\@noitemerr
+    {\@latex@warning{Empty `bibitemlist' environment}}%
+    \endlist}
+
+\def\tableofcontents{\section*{\contentsname}\@starttoc{toc}}
+\parskip0pt
+\parindent1em
+\def\Panel#1#2#3#4{\multicolumn{#3}{){\columncolor{#2}}#4}{#1}}
+\newenvironment{reflist}{%
+  \begin{raggedright}\begin{list}{}
+  {%
+   \setlength{\topsep}{0pt}%
+   \setlength{\rightmargin}{0.25in}%
+   \setlength{\itemsep}{0pt}%
+   \setlength{\itemindent}{0pt}%
+   \setlength{\parskip}{0pt}%
+   \setlength{\parsep}{2pt}%
+   \def\makelabel##1{\itshape ##1}}%
+  }
+  {\end{list}\end{raggedright}}
+\newenvironment{sansreflist}{%
+  \begin{raggedright}\begin{list}{}
+  {%
+   \setlength{\topsep}{0pt}%
+   \setlength{\rightmargin}{0.25in}%
+   \setlength{\itemindent}{0pt}%
+   \setlength{\parskip}{0pt}%
+   \setlength{\itemsep}{0pt}%
+   \setlength{\parsep}{2pt}%
+   \def\makelabel##1{\upshape\sffamily ##1}}%
+  }
+  {\end{list}\end{raggedright}}
+\newenvironment{specHead}[2]%
+ {\vspace{20pt}\hrule\vspace{10pt}%
+  \label{#1}\markright{#2}%
+
+  \pdfbookmark[2]{#2}{#1}%
+  \hspace{-0.75in}{\bfseries\fontsize{16pt}{18pt}\selectfont#2}%
+  }{}
+      \def\TheFullDate{August 2016 (revised: August 2016)}
+\def\TheID{\makeatother }
+\def\TheDate{August 2016}
+\title{Creating a Manuscript Description}
+\author{TEI @ Oxford}\makeatletter 
+\makeatletter
+\newcommand*{\cleartoleftpage}{%
+  \clearpage
+    \if@twoside
+    \ifodd\c@page
+      \hbox{}\newpage
+      \if@twocolumn
+        \hbox{}\newpage
+      \fi
+    \fi
+  \fi
+}
+\makeatother
+\makeatletter
+\thispagestyle{empty}
+\markright{\@title}\markboth{\@title}{\@author}
+\renewcommand\small{\@setfontsize\small{9pt}{11pt}\abovedisplayskip 8.5\p@ plus3\p@ minus4\p@
+\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus2\p@
+\belowdisplayshortskip 4\p@ plus2\p@ minus2\p@
+\def\@listi{\leftmargin\leftmargini
+               \topsep 2\p@ plus1\p@ minus1\p@
+               \parsep 2\p@ plus\p@ minus\p@
+               \itemsep 1pt}
+}
+\makeatother
+\fvset{frame=single,numberblanklines=false,xleftmargin=5mm,xrightmargin=5mm}
+\fancyhf{} 
+\setlength{\headheight}{14pt}
+\fancyhead[LE]{\bfseries\leftmark} 
+\fancyhead[RO]{\bfseries\rightmark} 
+\fancyfoot[RO]{}
+\fancyfoot[CO]{\thepage}
+\fancyfoot[LO]{\TheID}
+\fancyfoot[LE]{}
+\fancyfoot[CE]{\thepage}
+\fancyfoot[RE]{\TheID}
+\hypersetup{linkbordercolor=0.75 0.75 0.75,urlbordercolor=0.75 0.75 0.75,bookmarksnumbered=true}
+\fancypagestyle{plain}{\fancyhead{}\renewcommand{\headrulewidth}{0pt}}\makeatother 
+\begin{document}
+
+\makeatletter
+\noindent\parbox[b]{.75\textwidth}{\fontsize{14pt}{16pt}\bfseries\raggedright\sffamily\selectfont \@title}
+\vskip20pt
+\par\noindent{\fontsize{11pt}{13pt}\sffamily\itshape\raggedright\selectfont\@author\hfill\TheDate}
+\vspace{18pt}
+\makeatother
+\let\tabcellsep& 
+\section[{Learning Outcomes}]{Learning Outcomes}\par
+During this exercise you will learn : \begin{itemize}
+\item how to create a basic manuscript description 
+\item how the various components of a TEI manuscript description are organized
+\item how to create a detailed manuscript description
+\end{itemize} 
+\section[{A minimal msDesc}]{A minimal \texttt{<msDesc>}}\par
+A manuscript description, as the name suggests, describes a manuscript. The description can be rich and complex, or very simple. The same applies to its markup. Let's begin with the absolute minimum.\par
+A manuscript description should always tell you \begin{itemize}
+\item where the manuscript is to be found : \texttt{<msIdentifier>}
+\item what the manuscript contains : \texttt{<msContents>} or \texttt{<p>}
+\item and probably something about its physical composition, size etc. (\texttt{<physDesc>} or \texttt{<p>})
+\end{itemize} \par
+Of course it may contain much, much more, as we will see...
+\section[{Getting started}]{Getting started}\par
+In this exercise we will create a TEI document which contains a manuscript description, marked up with the TEI \texttt{<msDesc>} element.\begin{itemize}
+\item Open oXygen, and create a new XML document using the template provided for a P5 Manuscript Description \begin{itemize}
+\item Select New from the File menu (CTRL-N)
+\item Scroll down to Framework Templates in the New dialog
+\item Open TEI P5, and select Manuscript description 
+\end{itemize} 
+\item oXygen creates a template for you to fill which looks more or less like this {\hskip1pt}\\{} \includegraphics[]{../images/msDescSkel.png}
+\item First, fill in the TEI header as follows \begin{itemize}
+\item The \texttt{<title>} is something like ‘TEI Conformant description of a manuscript’
+\item The \texttt{<publicationStmt>} says something like ‘Unpublished exercise’
+\item The \texttt{<sourceDesc>} for the moment says simply ‘No pre-existing source’
+\item If you like, you could add a \texttt{<respStmt>} containing a \texttt{<resp>} such as \texttt{TEI Encoding} and a \texttt{<name>} containing your own name. Do you know where this element can go? How would you find out?
+\end{itemize} 
+\item Next, fill in the \texttt{<msIdentifier>} as follows \begin{itemize}
+\item In the \texttt{<settlement>} element, give the name of the city (town, village, etc.) where your manuscript is currently stored (‘Sofia’)
+\item In the \texttt{<repository>} element, give the name of the repository (institution, library, etc.) which holds it (‘Национална Библиотека "Св. Св. Кирил и Методий"’)
+\item In the \texttt{<idno>} element give the shelf mark, call number or similar for your manuscript (‘1144’)
+\end{itemize} 
+\item This is all that is needed for a valid manuscript description. But to make it useful, you may wish to add a little more information. You could supply this as a \texttt{<head>} element, for example containing the text ‘Short Apostle Lectionary in Russian, written in Cyrillic script by a single hand’. Or you could add a series of \texttt{<p>} or \texttt{<ab>} elements providing whatever information you choose. Or you could use some of the more specialised elements provided by the TEI, as follows.
+\item After the \texttt{<msIdentifier>}, add a \texttt{<msContents>} element to provide information about the ‘intellectual content’ of the manuscript. In the simplest case, you might just want to summarise this, using a \texttt{<summary>} element.
+\item After the \texttt{<msContents>} element, add a \texttt{<physDesc>} element to describe the physical aspects of the manuscript. In the simplest case, you could provide this as one or more paragraphs (\texttt{<p>}) elements.
+\end{itemize} \par
+Your minimal \texttt{<msDesc>} should look something like this: \par\bgroup\exampleFont \begin{shaded}\noindent\mbox{}{<\textbf{msDesc}>}\mbox{}\newline 
+\hspace*{6pt}{<\textbf{msIdentifier}>}\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}{<\textbf{settlement}>}Sofia{</\textbf{settlement}>}\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}{<\textbf{repository}>}National Library{</\textbf{repository}>}\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}{<\textbf{idno}>}1144{</\textbf{idno}>}\mbox{}\newline 
+\hspace*{6pt}{</\textbf{msIdentifier}>}\mbox{}\newline 
+\hspace*{6pt}{<\textbf{head}>}Apostle Lectionary, in Russian, written in Cyrillic script by a single\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt} hand{</\textbf{head}>}\mbox{}\newline 
+\hspace*{6pt}{<\textbf{msContents}>}\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}{<\textbf{summary}>}Apostle Lectionary in Russian{</\textbf{summary}>}\mbox{}\newline 
+\hspace*{6pt}{</\textbf{msContents}>}\mbox{}\newline 
+\hspace*{6pt}{<\textbf{physDesc}>}\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}{<\textbf{p}>}Parchment, 39 folios, written in Cyrillic script by a single hand. Some damage to\mbox{}\newline 
+\hspace*{6pt}\hspace*{6pt}\hspace*{6pt}\hspace*{6pt} outer leaves. {</\textbf{p}>}\mbox{}\newline 
+\hspace*{6pt}{</\textbf{physDesc}>}\mbox{}\newline 
+{</\textbf{msDesc}>}\end{shaded}\egroup\par \par
+Since the \texttt{<head>} element now adds nothing to the rest of the description, you might like to remove it.
+\section[{A more ambitious description}]{A more ambitious description}\par
+In this part of the exercise, we will first convert a pre-existing manuscript description from word processor format (Word or Libre Office) into TEI XML. We will then consider how each part of the description could be marked up in a TEI msDesc. \begin{itemize}
+\item Browse to your \textsf{Work} folder and click on either the file \textsf{LUL\textunderscore Ms40.odt} (if you have Libre Office) or \textsf{LUL\textunderscore Ms40.docx} (if you have Microsoft Word) to open it. Take a quick look at its contents and close the word processor application again.
+\item Now, in oXygen, choose File - Open, navigate to this file, and open it again
+\item A new window labelled \textsf{Archive Browser} opens, showing the structure of the word processor file, which is actually a collection of several files. Find the file called \textsf{content.xml} (for an .odt file), or \textsf{Word/document.xml} (for a .docx file) and open it by double clicking on it
+\item As you can see, this is actually an XML file, although it uses a different non-TEI set of tags. We will use oXygen to convert it automatically into a basic TEI document. \begin{itemize}
+\item  Select \textsf{Transformation -> Configure Transformation Scenario(s)} from the \textsf{Document} menu. Or type \texttt{CTRL-SHIFT-C}. Or click the little spanner icon
+\item Check the little box next to DOCX TEI P5 (or ODT TEI P5) and press the \textsf{Apply Associated} button.
+\item After a brief pause, a new window opens in which a basic TEI P5 version of the document appears. Click the Format and Indent button (CTRL-SHIFT-I) to see its structure, which should look familiar to you!
+\end{itemize} 
+\end{itemize} \par
+You could transform this document into a properly structured TEI MS Description in (at least) two ways. You could make a new document, using the template provided for a P5 Manuscript Description in exactly the same way as before, and then gradually cut and paste material from one document into the other. Or you could change the tagging in the document you just created, deleting unnecessary additional material as you go. We don't mind which you choose, but we will describe the second. \begin{itemize}
+\item If you adopt the second strategy, you will need to change the outermost \texttt{<div>} in the body of the document into an \texttt{<msDesc>} element. \begin{itemize}
+\item Highlight all the text inside the opening tag (\texttt{div type="div1"}) taking care \textit{not} to include the pointy brackets.
+\item Type the new name you want (\texttt{msDesc}).
+\item Move the cursor outside the tag.
+\item If you scroll down to the end of the file, you will see that oXygen has helpfully inserted the closing tag. 
+\item You will also see that the document is now invalid. Don't panic! You will fix this during the rest of the exercise. 
+\end{itemize} 
+\item Begin by creating a valid \texttt{<msIdentifier>} which shows that the manuscript with identifier \texttt{Medeltidshandskrift 40} is in the holdings of a repository called \texttt{Lund University Library}. If you like, you can additionally provide the country (Sweden), the town (Lund) and the institution (Lunds Universitet), each tagged with the appropriate TEI element. Don't forget that just typing a < character anywhere in the document you are editing will pop up a list of the TEI tags available at this point: this will help you add the right tags within your \texttt{<msIdentifier>} element.
+\item This description includes two former identifiers (following the Latin word ‘olim’), which you should mark up using the \texttt{<altIdentifier>} element. We suggest that you regard ‘Bibliotheca recentior’ as the name of a collection. And remember that you need to repeat the name of the host repository (\texttt{Lund University Library}) for each of these additional identifiers.
+\item This description also includes two summaries or abstracts, one very short, and one slightly longer. You can decide whether or not to keep them: if you do keep them, they can both by tagged using the \texttt{<head>} element. You could use the \textit{@type} attribute to distinguish them, if you like.
+\end{itemize} \par
+The start of your document should now look something like this: \noindent\includegraphics[]{../images/ms40_start.png}\par
+The remainder of the description consists of a series of \texttt{<div>} elements, each containing a \texttt{<head>} to specify its function. Some (but not all) of these \texttt{<div>} elements can be translated immediately into a more specialised element, as follows: \begin{itemize}
+\item replace the \texttt{<div>} tag with its corresponding MsDesc element (see table below)
+\item delete the \texttt{<head>} element
+\end{itemize}   \par 
+\begin{longtable}{P{0.2833333333333333\textwidth}P{0.5666666666666667\textwidth}}
+\hline \rowcolor{label}heading\tabcellsep element\\\hline 
+Contents\tabcellsep \texttt{<msContents>}\\
+Physical description\tabcellsep \texttt{<physDesc>}\\
+Decoration\tabcellsep \texttt{<decoDesc>}\\
+Binding\tabcellsep \texttt{<bindingDesc>}\\
+Foliation\tabcellsep \texttt{<foliation>}\\
+Additions\tabcellsep \texttt{<additions>}\\
+Condition\tabcellsep \texttt{<condition>}\\
+History\tabcellsep \texttt{<history>}\\
+Origin\tabcellsep \texttt{<origin>}\\
+Provenance\tabcellsep \texttt{<provenance>}\\
+Acquisition\tabcellsep \texttt{<acquisition>}\end{longtable} \par
+ \par
+Your document should now be valid at the start and the end, but not in the middle, because the sub-parts of the \texttt{<physDesc>} are not yet properly organised. We'll look at that in a moment, but first we'll tidy up the \texttt{<msContents>}.
+\section[{Structuring the msContents}]{Structuring the \texttt{<msContents>}}\par
+You can describe the intellectual content of a manuscript in many different ways. In the previous simple example we just supplied a \texttt{<summary>} element, which may be adequate in many cases. In a manuscript containing several different titles or items, it's more usual to supply a list of \texttt{<msItem>} elements for each one. Inside the \texttt{<msItem>} a number of more specialised elements are available to describe the item more exactly, such as a title, a rubric, an icipit etc. And we can also specify the part of a manuscript in which the item appears by using the \texttt{<locus>} element.\begin{itemize}
+\item First, turn the first \texttt{<p>} element in the \texttt{<msContents>} element into an \texttt{<msItem>} element, in the same way as you transformed the outermost \texttt{<div>} tag into an \texttt{<msDesc>}. Highlight everything inside the first \texttt{<p>} tag (but not the pointy brackets), and type \texttt{msItem} to replace it.
+\item The figure 1 which follows is the number of this item within the manuscript. Add an \textit{@n} attribute to your \texttt{<msItem>} and give it this value. Then delete the whole of the \texttt{<hi>} element which contains the figure.
+\item Now look at the passage enclosed in parentheses ( and ). This contains a \texttt{<ref>} element whose \textit{@target} indicates an online version of this manuscript and which contains: \begin{itemize}
+\item an empty \texttt{<anchor>} element whose \textit{@xml:id} supplies an identifier for this item
+\item a \texttt{<hi>} element containing an indication of the folios in the manuscript concerned (\texttt{ff 6r-474v})
+\end{itemize}  Proceed as follows: \begin{itemize}
+\item change the \texttt{<ref>} element into a \texttt{<locus>} element
+\item change its \textit{@target} attribute into a \textit{@facs} attribute
+\item move the \textit{@xml:id} attribute from the \texttt{<anchor>} to the \texttt{<msItem>} you created earlier
+\item Delete the remaining parts of the \texttt{<hi>} elements and (if you like) the parentheses
+\end{itemize} 
+\end{itemize} \par
+The start of your msItem should now look like this: \noindent\includegraphics[]{../images/msItemStart.png}. We now need to tag the titles etc used to describe the work. \begin{itemize}
+\item Select the two words ‘Russkij Chronograf’ and use CTRL-E to tag them as a \texttt{<title>}
+\item Select the first passage within quotation marks labelled ‘rubric’, i.e. from ‘книга глаголемаꙗ’ to ‘епископа гевалъскаго’ and use CTRL-E to tag this as a \texttt{<rubric>}. Delete the \texttt{<hi>} element and the quotation marks.
+\item Do the same for the next quoted passage (from ‘зачало’ to ‘землю’) but this time tag it as an \texttt{<incipit>}
+\item Do the same for the next quoted passage (from ‘и многолѣтно’ to ‘вѣки амин’) but this time tag it as an \texttt{<explicit>}
+\item And finally tag the stretch of text labelled as a colophon as a \texttt{<colophon>}
+\item Don't forget to remove the redundant \texttt{<hi>} and \texttt{<anchor>} elements left behind! Your \texttt{<msItem>} element should now be valid (i.e. no red underlining anywhere in it)
+\end{itemize} \par
+To check your work, open the Outline view (Window -> Show View -> Outline) to display the structure of your msDesc. It should look something like this: \noindent\includegraphics[]{../images/msItem.png}
+\section[{Structuring the physDesc}]{Structuring the \texttt{<physDesc>}}\par
+The TEI schema distinguishes (and therefore tags) many distinct components within a physical description that is not just a sequence of paragraphs. Specifically, it distinguishes between information about the text bearing object itself, which is marked up using the \texttt{<objectDesc>} element, and information concerning aspects of the writing and decoration it carries. In some cases, the TEI schema also requires elements to be given in a specific order. To make our document valid, proceed as follows: \begin{itemize}
+\item Select the first two paragraphs (from "Support:" to "less details") and use CTRL-E to enclose these paragraphs with a \texttt{<support>} element. Delete the element \texttt{<hi>} with which it begins (both the tags and their content).
+\item Change the third \texttt{<p>} element (starting "Extent:") into an \texttt{<extent>} element. Delete the element \texttt{<hi>} with which it begins.
+\item Change the fourth \texttt{<p>} element (starting "Collation:") into a \texttt{<collation>} element. Delete the element \texttt{<hi>} with which it begins.
+\item Select the \texttt{<foliation>} element you created earlier and move it to follow the \texttt{<extent>} element
+\item Select the \texttt{<condition>} element you created earlier and move it to follow the \texttt{<foliation>} element
+\item Select all five elements, \texttt{<support>}, \texttt{<extent>}, \texttt{<collation>}\texttt{<foliation>} and \texttt{<condition>}; use CTRL-E to wrap them in a \texttt{<supportDesc>} element
+\item Select the paragraph labelled ‘Layout’; use CTRL-E to enclose it first by a \texttt{<layoutDesc>} element, and then by a \texttt{<layout>} element. Delete the element \texttt{<hi>} with which it begins.
+\item Select the paragraph labelled ‘Script’; use CTRL-E to enclose it by a \texttt{<scriptDesc>} element. Delete the element \texttt{<hi>} with which it begins.
+\item Select the \texttt{<additions>} element you created earlier and move it to follow the \texttt{<decoDesc>} element
+\end{itemize} \par
+Phew. If you have done all that correctly, your document is now valid and you have a jolly green square. Check the structure of your \texttt{<physDesc>} element in the \textsf{Outline} view: it should look like this: \includegraphics[]{../images/physDesc.png}\par
+If you're still feeling strong, you might like to improve the markup of the \texttt{<support>} element as follows:\begin{itemize}
+\item Change the \texttt{<p>} element containing the word ‘Paper’ into a \texttt{<material>} element
+\item Change the second \texttt{<p>} element into a \texttt{<watermark>} element
+\item Delete the text \texttt{Three different watermarks: 1)}
+\item Split the \texttt{<watermark>} element into three by typing ALT-SHIFT-D before \texttt{2)} and \texttt{3)}
+\item Delete the numbers 2) and 3)
+\end{itemize} \par
+Our final version of this manuscript description is in the file \textsf{Work/msDesc-corrected.xml}.
+\section[{Self-Assessment}]{Self-Assessment}\par
+Check if you understand some of the core principles of this exercise by answering the following questions: \begin{itemize}
+\item What is the only required aspect of a TEI manuscript description?
+\item How does one record the separate works of intellectual content present in the manuscript? 
+\item Where does one describe the support which forms the object, or its layout?
+\item How does one record the origin, provenance, and acquisition of the object?
+\end{itemize} 
+\section[{Next and More Reading}]{Next and More Reading}\par
+Next we'll be looking at more encoding one can add to manuscripts, particularly for transcriptions. However, before that if you have time you may wish to:\begin{itemize}
+\item Look up the reference pages for each of the new elements you've used.
+\item Read some of the chapter on Manuscript Description: \xref{http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html}{http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html}.
+\end{itemize} 
+\end{document}
