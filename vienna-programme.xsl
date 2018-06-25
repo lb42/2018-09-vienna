@@ -7,7 +7,7 @@
     <xsl:output method="xml" indent="no" doctype-system="about:legacy-compat"/>
     <xsl:template match="/">
         <html>
-            <!--#config timefmt="%Y-%m-%dT%X%z" -->
+            <xsl:comment>#config timefmt="%Y-%m-%dT%X%z" </xsl:comment>
             <head>
                 <title>
                     <xsl:apply-templates select="//titleStmt/title"/>
@@ -40,8 +40,8 @@
                         </a>
                     </span>
                     <span>
-                        <strong>Last modified:</strong>
-                        <!--#echo var="LAST_MODIFIED" -->
+                        <strong>Last modified: </strong>
+                        <xsl:comment>#echo var="LAST_MODIFIED" </xsl:comment>
                     </span>
                 </p>
                 <hr/>

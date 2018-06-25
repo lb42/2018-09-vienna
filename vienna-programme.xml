@@ -52,8 +52,9 @@
          <div>
             <head>Before the workshop</head>
             <list>
-               <item>You will need a laptop running Windows, MacOS, or Linux. (ChromeOS, iOS, and
-                  other netbook or tablet operating systems are not supported.)</item>
+               <item>This is a hands-on workshop, and you will need a laptop running Windows, MacOS,
+                  or Linux. (ChromeOS, iOS, and other netbook or tablet operating systems are not
+                  supported.)</item>
                <item><hi>Download &lt;oXgyen/&gt; XML editor</hi> from
                   <ref target="http://www.oxygenxml.com">http://www.oxygenxml.com</ref> and install
                   it on your laptop. There are other &lt;oXygen/&gt; products on the same page; you
@@ -92,7 +93,7 @@
                      (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
                   <item>Session 2: Introduction to TEI
                      (<ref target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 3: TEI Tools [LB]
+                  <item>Session 3: TEI Tools
                      (<ref target="Slides/talk-tools.pdf">slides<graphic url="images/pdf.gif"/></ref>,
                      <ref target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>)
                   </item>
