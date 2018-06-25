@@ -52,10 +52,17 @@
          <div>
             <head>Before the workshop</head>
             <list>
-               <item><hi>Download the &lt;oXgyen/&gt; XML editor</hi> from
+               <item>You will need a laptop running Windows, MacOS, or Linux. (ChromeOS, iOS, and
+                  other netbook or tablet operating systems are not supported.)</item>
+               <item><hi>Download &lt;oXgyen/&gt; XML editor</hi> from
                   <ref target="http://www.oxygenxml.com">http://www.oxygenxml.com</ref> and install
-                  it on your laptop. You will need to request a free, fully-functional thirty-day
-                  license, which you can do at the download site.</item>
+                  it on your laptop. There are other &lt;oXygen/&gt; products on the same page; you
+                  want XML <emph>Editor</emph>. We recommend the version that is bundled with Java,
+                  even if you already have Java installed (the Java that is downloaded with
+                  &lt;oXygen/&gt; will not interfere with other Java installations on your machine).
+                  You need a license to operate &lt;oXygen/>; you can request a free,
+                  fully-functional thirty-day license at the download site, and the instructors will
+                  distribute a free, fully-functional extended license at the workshop.</item>
                <item>Read:
                   <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">An even gentler
                      introduction to XML</ref>.</item>

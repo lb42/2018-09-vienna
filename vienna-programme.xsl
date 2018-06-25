@@ -94,6 +94,11 @@
     <xsl:template match="graphic">
         <img alt="{@url}" src="{@url}"/>
     </xsl:template>
+    <xsl:template match="emph">
+        <em>
+            <xsl:apply-templates/>
+        </em>
+    </xsl:template>
     <!-- mode "toc" -->
     <xsl:template match="div" mode="toc">
         <li>
