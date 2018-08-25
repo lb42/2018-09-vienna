@@ -26,7 +26,7 @@
       <body>
          <div>
             <head>Description and goals</head>
-            <p>This three-day hands-on workshop provides nine hours of instruction in using
+            <p>This hands-on workshop provides a total of nine hours of instruction in using
                <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">eXtensible Markup Language
                   (XML)</ref>
                and the
@@ -41,7 +41,7 @@
                   <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref>)</item>
                <item>Lou Burnard, formerly assistant director at Oxford University Computing
                   Services, and one of the original editors of the Text Encoding Initiative.
-                  (<ref target="mailto:lou.burnard@gmail.com">lou,burnard@gmail.com</ref>,
+                  (<ref target="mailto:lou.burnard@gmail.com">lou.burnard@gmail.com</ref>,
                   <ref target="http://about.me/louburnard">http://users.ox.ac.uk/~lou</ref>)</item>
             </list>
             <p>The workshop is part of the
@@ -52,7 +52,7 @@
          <div>
             <head>Before the workshop</head>
             <list>
-               <item>This is a hands-on workshop, and you will need a laptop running Windows, MacOS,
+               <item>This is a hands-on workshop. You will need a laptop running Windows, MacOS,
                   or Linux. (ChromeOS, iOS, and other netbook or tablet operating systems are not
                   supported.)</item>
                <item><hi>Download &lt;oXgyen/&gt; XML editor</hi> from
@@ -87,22 +87,22 @@
             -->
             <head>Workshop schedule</head>
             <div>
-               <head>Friday, 14 September</head>
+               <head>Sunday, 16 September</head>
                <list>
-                  <item>Session 1: Introduction to XML
+                  <item>Session 1a: Introduction to XML (DB) 
                      (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 2: Introduction to TEI
+                   <item>Session 1b: Introduction to TEI (LB)
                      (<ref target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 3: TEI Tools
+                       </list>
+            </div>
+            <div>
+               <head>Monday 17 September</head>
+               <list>
+                  <item>Session 2: TEI Tools (LB)
                      (<ref target="Slides/talk-tools.pdf">slides<graphic url="images/pdf.gif"/></ref>,
                      <ref target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>)
                   </item>
-               </list>
-            </div>
-            <div>
-               <head>Sunday, 16 September</head>
-               <list>
-                  <item>Session 4: Manuscript description
+                  <item>Session 3: Manuscript description (DB)
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
                         url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
@@ -124,25 +124,21 @@
                               the Árni Magnússon Institute, Reykjavík</ref>
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
-                  <item>Session 5: Manuscript transcription
+                  <item>Session 4: Manuscript transcription (LB)
                      (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>)
                   </item>
-               </list>
-            </div>
-            <div>
-               <head>Monday, 17 September</head>
-               <list>
-                  <item>Session 6: Taking stock <list>
-                        <item>Sample XML projects at
-                           <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
-                           <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
-                           (student course projects)</item>
-                        <item>What next
-                           (<ref target="Slides/what-next.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
-                     </list>
+                  <item>Session 5: Taking stock (DB) <list>
+                     <item>Sample XML projects at
+                        <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
+                        <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
+                        (student course projects)</item>
+                     <item>What next
+                        (<ref target="Slides/what-next.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                  </list>
                   </item>
                </list>
             </div>
+          
          </div>
          <div>
             <head>Further reading</head>
