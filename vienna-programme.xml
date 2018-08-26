@@ -105,22 +105,18 @@
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
                         url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
-                           <ref target="Work/Enina.xml">Description of the <title>Enina
-                                 Apostol</title></ref>
+                           <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
                            (XML file)</item>
                         <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Section 10 of TEI P5: Manuscript description</ref></item>
                         <item><ref target="http://eslavsanct.net/home.php?text=Sources"><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
                         <item><ref target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2">The Gospels of Tsar Ivan Alexander</ref>
                            (search for <q>Ivan Alexander</q>; UK, London, British Library, Add MS
                            39627; in English)</item>
-                        <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s
-                              menologion</ref>
+                        <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s menologion</ref>
                            (September, October, November; in Bulgarian)</item>
                         <item>Manuscripts at
-                           <ref target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment
-                              Oxridski University, Sofia</ref></item>
-                        <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at
-                              the Árni Magnússon Institute, Reykjavík</ref>
+                           <ref target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment Oxridski University, Sofia</ref></item>
+                        <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
                   <item>Session 4: Manuscript transcription 
@@ -151,33 +147,25 @@
                   <list>
                      <item><ref target="http://bdinski.obdurodon.org">Bdinski sbornik</ref> (Codex
                         gandavensis slavicus 408)</item>
-                     <item><ref target="http://suprasliensis.obdurodon.org">Codex
-                           Suprasliensis</ref></item>
-                     <item><ref target="http://pvl.obdurodon.org">The Rus′ primary chronicle
-                           (Povest′ vremennyx let)</ref></item>
+                     <item><ref target="http://suprasliensis.obdurodon.org">Codex Suprasliensis</ref></item>
+                     <item><ref target="http://pvl.obdurodon.org">The Rus′ primary chronicle (Povest′ vremennyx let)</ref></item>
                   </list>
                </div>
                <div>
                   <head>Non-reading views of manuscript and textual information</head>
                   <list>
-                     <item><ref target="http://zatochnik.obdurodon.org/">Daniel the prisoner: a
-                           virtual florilegium</ref></item>
-                     <item><ref target="http://menology.obdurodon.org/">Medieval Slavic
-                           menologies</ref></item>
-                     <item><ref target="http://repertorium.obdurodon.org/dev/test.xhtml">Plectogram
-                           sample</ref>
+                     <item><ref target="http://zatochnik.obdurodon.org/">Daniel the prisoner: a virtual florilegium</ref></item>
+                     <item><ref target="http://menology.obdurodon.org/">Medieval Slavic menologies</ref></item>
+                     <item><ref target="http://repertorium.obdurodon.org/dev/test.xhtml">Plectogram sample</ref>
                         (Physiologus texts in the Repertorium corpus)</item>
                   </list>
                </div>
                <div>
                   <head>Catalogs, editions, and portals for Slavic manuscripts and texts</head>
                   <list>
-                     <item><ref target="http://old.stsl.ru/manuscripts/index.php">Russia, Sergiev
-                           posad, Holy Trinity-St. Sergius lavra</ref></item>
-                     <item><ref target="http://ksana-k.ru/?p=2400">Библотека Фронтистеса:
-                           древнеславянские памятники</ref></item>
-                     <item><ref target="http://repertorium.obdurodon.org">The Repertorium of Old
-                           Bulgarian literature and letters</ref></item>
+                     <item><ref target="http://old.stsl.ru/manuscripts/index.php">Russia, Sergiev posad, Holy Trinity-St. Sergius lavra</ref></item>
+                     <item><ref target="http://ksana-k.ru/?p=2400">Библотека Фронтистеса: древнеславянские памятники</ref></item>
+                     <item><ref target="http://repertorium.obdurodon.org">The Repertorium of Old Bulgarian literature and letters</ref></item>
                   </list>
                </div>
             </div>
@@ -188,31 +176,23 @@
                         <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Chapter 10: Manuscript description</ref></item>
                         <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html">Chapter 11: Representation of primary sources</ref></item>
                      </list></item>
-                  <item><ref target="http://repertorium.obdurodon.org/Bojadziev_Scripta_11.pdf">Guidelines to Repertorium Initiative XML model for manuscript
-                        descriptions</ref>
+                  <item><ref target="http://repertorium.obdurodon.org/Bojadziev_Scripta_11.pdf">Guidelines to Repertorium Initiative XML model for manuscript descriptions</ref>
                      <graphic url="images/pdf.gif"/> (Andrej Bojadžiev, <title>Scripta &amp;
                         e-Scripta</title> 10–11 (2012): 9–103)</item>
                   <item>
-                     <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/"><title>Введение в TEI
-                           и XML</title></ref>
+                     <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/"><title>Введение в TEI и XML</title></ref>
                      (Lou Burnard, Alexei Lavrentev, and Tatiana Timcenko)</item>
-                  <item><ref target="http://tei.it.ox.ac.uk/Talks/2014-07-dhoxss-tei/Slides/talk-editing-5.pdf">Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI
-                        for Text Bearing Objects</ref>
+                  <item><ref target="http://tei.it.ox.ac.uk/Talks/2014-07-dhoxss-tei/Slides/talk-editing-5.pdf">Textual Editing with the TEI Or, Documentary Editing with the TEI Or, TEI for Text Bearing Objects</ref>
                      (slides from
-                     <ref target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html">DHOXSS 2014
-                        Workshop)</ref>
+                     <ref target="http://digital.humanities.ox.ac.uk/dhoxss/2014/TEI.html">DHOXSS 2014 Workshop)</ref>
                   </item>
-                  <item><ref target="http://varna.obdurodon.org/TEI-general2014.ppt.pdf">The
-                        transcription and description of primary sources using TEI conformant
-                        XML</ref>
+                  <item><ref target="http://varna.obdurodon.org/TEI-general2014.ppt.pdf">The transcription and description of primary sources using TEI conformant XML</ref>
                      (Matthew J. Driscoll, Arnamagnæan Institute)</item>
-                  <item><ref target="http://dh.obdurodon.org">Materials from David J. Birnbaum’s
-                           <q>Computational methods in the humanities</q></ref>
+                  <item><ref target="http://dh.obdurodon.org">Materials from David J. Birnbaum’s <q>Computational methods in the humanities</q></ref>
                      course (see also
                      <ref target="http://www.obdurodon.org">links to projects</ref>)</item>
                   <item>Genetic editions <list>
-                        <item><ref target="http://research.cch.kcl.ac.uk/proust_prototype/">Proust
-                              prototype</ref></item>
+                        <item><ref target="http://research.cch.kcl.ac.uk/proust_prototype/">Proust prototype</ref></item>
                         <item><ref target="http://shelleygodwinarchive.org/contents/frankenstein">The <title>Frankenstein</title> notebooks</ref>
                            (sample project from the Shelley-Godwin Archive)</item>
                      </list></item>
@@ -227,13 +207,11 @@
                   XML.</p>
                <list>
                   <item>The
-                     <ref target="http://repertorium.obdurodon.org">Repertorium of Old
-                        Bulgarian literature and letters</ref>
+                     <ref target="http://repertorium.obdurodon.org">Repertorium of Old Bulgarian literature and letters</ref>
                      provides analytical descriptions of over one hundred early Slavic manuscripts,
                      with tools for searching by repository information and by textual content. The
                      prototype
-                     <ref target="http://repertorium.obdurodon.org/dev/test.xhtml">plectogram of
-                        Physiologus texts</ref>
+                     <ref target="http://repertorium.obdurodon.org/dev/test.xhtml">plectogram of Physiologus texts</ref>
                      is an early view of functionality currently under development to adding
                      drag-and-drop support to a graphic representation of textual correspondences
                      within the corpus.</item>
@@ -243,10 +221,9 @@
                      library. At the moment, the virtual library contains 2048 manuscripts from 84
                      different collections. In addition to the general web site, a free iOS app is
                      available in the
-                     <ref target="http://e-codices.textandbytes.com/">Apple
-                        store</ref>.
-                     Note the integration of overview, facsimile, and formatted descriptions, and
-                     the provision of the raw XML.</item>
+                     <ref target="http://e-codices.textandbytes.com/">Apple store</ref>. Note the
+                     integration of overview, facsimile, and formatted descriptions, and the
+                     provision of the raw XML.</item>
                   <item><ref target="http://handrit.is/en/">handrit.is</ref> is an analytical
                      catalog of Icelandic manuscripts currently held in several institutions. It
                      provides sophisticated browsing and search facilities and has an integrated
