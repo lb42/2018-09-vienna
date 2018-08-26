@@ -114,7 +114,7 @@
            <head>minimal encoding</head>
                <p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>
                <cb/>
-               <egXML xmlns="http://www.tei-c.org/ns/Examples"><pb n="7r"/>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="teeny"><pb n="7r"/>
                    <lb/>лота с҃новы своѥго. сьи
                    <lb/>же вт<gi>оо</gi>рїи авраамь, изи
                    <lb part="n"/>де на брань самого дїаво
@@ -134,15 +134,7 @@
                    <lb/>ꙗко блоуда ради вьпраша
                    <lb part="n"/>ѥть ѥѥ. потомь ѡтвеща</egXML>
            </div>
-       <!--     <div rend="slide">
-                <head>A typical minimal encoding</head>
-                <!-\-      <p><graphic url="../Images/exemple-p5.png" width="80%"/>
-                </p>-\->
-                <!-\-<p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>-\->
-                <cb/>
-                <p><graphic url="../Images/bdinski007r.xml.png"/></p>
-             
-            </div>-->
+     
             <div rend="slide">
                 <head>Representation of the physical structure</head>
                 <list>
