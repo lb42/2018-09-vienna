@@ -103,22 +103,46 @@
             </div>
             <div>
                 <head>Layers of transcription</head>
-                <p><graphic url="../Images/supr022r.jpg" height="90%"/></p>
+ <p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>
                 <cb/>
                 <list>
                     <item>Paleographic level : identification of characters and graphemes </item>
                     <item>Documentary (or diplomatic) level: decide what has been written </item>
                     <item>Editorial or semantic level : decide how it should be read </item>
                 </list>
-            </div>
-            <div rend="slide">
+           </div><div>
+           <head>minimal encoding</head>
+               <p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>
+               <cb/>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples"><pb n="7r"/>
+                   <lb/>лота с҃новы своѥго. сьи
+                   <lb/>же вт<gi>оо</gi>рїи авраамь, изи
+                   <lb part="n"/>де на брань самого дїаво
+                   <lb part="n"/>ла, побѣдити ѥго. и вь
+                   <lb part="n"/>звратити дьщере брата
+                   <lb/>своѥг<gi>оо</gi>. пришед же абиѥ
+                   <lb/>на мѣст<gi>оо</gi>. и вьшедь вь
+                   <lb/>гостинницю. гледаше
+                   <lb/>само и ѡнам<gi>оо</gi> хоте видѣ
+                   <lb part="n"/>ти. вьсклабив же се рече
+                   <lb/>кь гостинникоу. дроуже
+                   <lb/>слышаль ѥсмь. ꙗко има
+                   <lb part="n"/>ши здѣ д҃вцю доброу. вь
+                   <lb/>сласть да се назрю єє. ѡ
+                   <lb part="n"/>н же видѣвь старостныѥ
+                   <lb/>сѣдины ѥг<gi>оо</gi>, поразоумѣ
+                   <lb/>ꙗко блоуда ради вьпраша
+                   <lb part="n"/>ѥть ѥѥ. потомь ѡтвеща</egXML>
+           </div>
+       <!--     <div rend="slide">
                 <head>A typical minimal encoding</head>
-                <!--      <p><graphic url="../Images/exemple-p5.png" width="80%"/>
-                </p>-->
-                <p><graphic url="../Images/Ms629_p05.png"/></p>
+                <!-\-      <p><graphic url="../Images/exemple-p5.png" width="80%"/>
+                </p>-\->
+                <!-\-<p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>-\->
                 <cb/>
-                <p><graphic url="../Images/Ms629_p05_xml.png"/></p>
-            </div>
+                <p><graphic url="../Images/bdinski007r.xml.png"/></p>
+             
+            </div>-->
             <div rend="slide">
                 <head>Representation of the physical structure</head>
                 <list>
@@ -152,7 +176,7 @@
             <div>
                 <head>Using <gi>g</gi></head>
                 <figure>
-                    <graphic url="../Images/bdinski-detail.png" height="45%"/>
+                    <graphic url="../Images/bdinski-detail.png" width="90%"/>
                     <head>Bdinski, fol 7r, detail</head>
                 </figure>
                 <p>There is no Unicode character for the ligatured oo here: we tag it as a
@@ -163,7 +187,7 @@
                     <lb/>само и ѡнам<g ref="#ooLig">oo</g> хоте видѣ
                     <lb break="no"/>ти. вьсклабив же се рече </egXML>-->
                 <figure>
-                    <graphic url="../Images/ooligs.png" height="45%"/>
+                    <graphic url="../Images/ooligs.png" width="80%"/>
                     <head>Bdinski, fol 7r, detail</head>
                 </figure>
                 <p><code>#ooGlyph</code> points to a description of the glyph, provided in the TEI
@@ -206,7 +230,7 @@
             <div>
                 <head>Abbreviation and Expansion</head>
                 <p>An abbreviation may be viewed in two different ways: <list type="unordered">
-                        <item>as a particular sequence of letters or marks upon the page: thus, a ‘p
+                        <item>as a breakicular sequence of letters or marks upon the page: thus, a ‘p
                             with a bar through the descender’, a ‘superscript hook’, a ‘macron’ </item>
                         <item>as an alternative way of representing a sequence of letters : thus,
                             ‘per’, ‘re’, ‘n' </item>
@@ -315,7 +339,7 @@
                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><sic>relea</sic></egXML>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><corr>relicta</corr></egXML>
                 </p>
-                <p>The two may, of course, be combined within a <gi>choice</gi> element:
+                <p>The two may be combined within a <gi>choice</gi> element:
                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
                         <choice>
                             <sic>relea</sic>
@@ -325,7 +349,7 @@
                     </egXML>
                 </p>
             </div>
-            <div>
+        <!--    <div>
                 <head>Normalization</head>
                 <p>Source texts rarely use modern orthography. For retrieval and other processing
                     reasons, however, the modernized form may be needed.</p>
@@ -333,7 +357,7 @@
                     form; the <gi>orig</gi> (original) element to indicate a non-standard spelling.
                     These elements can of course be grouped as alternatives using the
                         <gi>choice</gi> element </p>
-            </div>
+            </div>-->
             <div>
                 <head>Different regularization strategies (1)</head>
                 <p>
@@ -405,7 +429,7 @@
             </div>
             <div>
                 <head>Semi-legible text</head>
-                <p> Use <gi>unclear</gi> if the text is partly illegible i.e. it can be read but
+                <p> Use <gi>unclear</gi> if the text is breakly illegible i.e. it can be read but
                     without perfect confidence. </p>
                 <p>
                     <graphic url="../Images/mightshould.png" width="80%"/>
@@ -433,7 +457,7 @@
                                 <damage agent="water" group="1"><supplied>on: nor all
                                     your</supplied></damage> Piety nor Wit</l></egXML>-->
                 </p>
-                <p>The <att>group</att> attribute is used to associate together parts of the
+                <p>The <att>group</att> attribute is used to associate together breaks of the
                     transcription affected by the same area of damage.</p>
             </div>
             <!--   <div>
@@ -546,7 +570,7 @@
                             separable</item>
                     </list>
                 </p><p>The TEI offers additional features for transcription of modern manuscripts,
-                    in which these problems are particularly common.</p>
+                    in which these problems are breakicularly common.</p>
             </div>
         
         </body>
