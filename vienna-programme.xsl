@@ -25,7 +25,7 @@
                     <a href="https://commons.wikimedia.org/wiki/File:Krems_-_Steinertor_(2).JPG"
                         style="border: none;">
                         <img class="steinertor" title="Steinertor, Krems, Austria"
-                            alt="[Steinertor, Krems, Austria]" src="images/steinertor.jpg"/>
+                            alt="[Steinertor, Krems, Austria]" src="Images/steinertor.jpg"/>
                     </a>
                 </p>
                 <p class="boilerplate">

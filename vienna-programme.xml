@@ -4,7 +4,7 @@
       <fileDesc>
          <titleStmt>
             <title>XML and TEI for Slavic philology</title>
-            <author>David Birnbaum and Lou Burnard</author>
+            <author>David J. Birnbaum and Lou Burnard</author>
          </titleStmt>
          <publicationStmt>
             <p>Unpublished workshop notes for ElManuscript 2018, Vienna and Krems</p>
@@ -26,7 +26,7 @@
       <body>
          <div>
             <head>Description and goals</head>
-            <p>This hands-on workshop provides a total of nine hours of instruction in using
+            <p>This hands-on workshop provides a total of 7-1/2 hours of instruction in using
                <ref target="http://dh.obdurodon.org/what-is-xml.xhtml">eXtensible Markup Language
                   (XML)</ref>
                and the
@@ -78,12 +78,11 @@
          </div>
          <div type="no-enumeration">
             <!--
-               1. Fri: XML and <oXygen/> (Vilnius 1. expanded)
-               2. Fri: TEI (Vilnius 3, expanded)
-               3. Fri: Transformation (Vilnius 9 and 10)
-               4. Sun: Description (Vilnius 3–5)
-               5. Sun: Transcription (Vilnius 6–8)
-               6. Mon: Applications (apply transformation from session 3 to manuscript materials)
+               1. Sun 16:00–17:30: XML and <oXygen/> (Vilnius 1. expanded; DJB), TEI (Vilnius 3, expanded; LB)
+               3. Mon 9:00–10:30: Transformation (Vilnius 9 and 10)
+               4. Mon 11:00–12:30: Description (Vilnius 3–5)
+               5. Mon 14:00–15:30: Transcription (Vilnius 6–8)
+               6. Mon 15:00–17:30: Applications (apply transformation from session 3 to manuscript materials)
             -->
             <head>Workshop schedule</head>
             <div>
