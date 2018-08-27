@@ -32,7 +32,7 @@
   </teiHeader>
   <text>
     <body>
-      <div>
+      <div type="slide">
         <head>What can you do with a TEI XML file?</head>
         <list>
           <item>The TEI itself doesn't provide you with a toolbox, nor a single do-everything
@@ -46,7 +46,7 @@
             and hence how to build the tools to make use of them.</item>
         </list>
       </div>
-      <div>
+      <div type="slide">
         <head>Well, yes, but ..</head>
         <p>The TEI Guidelines s'expriment en XML, comme toute application TEI</p>
         <list>
@@ -63,7 +63,7 @@
               formats (Word, OO, Docbook etc.)</item>
           </list></p>
       </div>
-      <div>
+      <div type="slide">
         <head>What sort of TEI-XML tools do we need? </head>
         <p>What might we want to do with a TEI XML document? <list>
             <item>create, modify, validate ...</item>
@@ -73,7 +73,7 @@
           </list>
         </p>
       </div>
-      <div>
+      <div type="slide">
         <head>Creation and modification of TEI XML documents</head>
         <list>
           <item>Editors like oXygen are not unique !</item>
@@ -86,7 +86,7 @@
             output directly in TEI XML</item>
         </list>
       </div>
-      <div>
+      <div type="slide">
         <head>Transformation and visualisation</head>
         <p> There is a widely-used library of XSLT <ident>TEI Stylesheets</ident>
           developed by Sebastian Rahtz : <list>
@@ -99,7 +99,7 @@
           </list>
         </p>
       </div>
-      <div>
+      <div type="slide">
         <head>Pourquoi se servir des TEI Stylesheets</head>
         <list>
           <item>ils proposent des solutions aux difficultés que vous n'auriez pas (peut être) encore
@@ -109,7 +109,7 @@
           <item>ils sont modulaires, extensibles, bien <soCalled>architecturés</soCalled></item>
         </list>
       </div>
-      <div>
+      <div type="slide">
         <head>Pourquoi ne pas s'en servir</head>
         <p>Ils ont des objectifs génériques, mais avec des limites! <list>
             <item>Ils ne traitent pas tout élément TEI!</item>
@@ -122,7 +122,7 @@
               propre projet (probablement).</item>
           </list></p>
       </div>
-      <div>
+      <div type="slide">
         <head>Transformations already provided</head>
 
          <table>
@@ -167,7 +167,7 @@
       </table>
 
  </div>
-      <div>
+      <div type="slide">
         <head>Personalisation des TEI Stylesheets</head>
         <list type="gloss">
           <label>Profile</label>
@@ -202,7 +202,7 @@
         </list></p>
       </div>
       
-      <div>
+      <div type="slide">
         <head>Digital publishing systems </head>
         <p>For the management, storage, search, and display of digital TEI editions there is now a
           range of software solutions : <list>
@@ -220,12 +220,12 @@
       </div>
       
       
-    <!--  <div>
+    <!--  <div type="slide">
         <head><ptr target="http://xtf.cdlib.org"/>: createur de sites de bibliotheque numerique</head>
         <p>
           <graphic url="../Graphics/xtf.png"/></p>
       </div>-->
-      <div>
+      <div type="slide">
         <head>XTF : a digital library creator</head>
         
         <list>
@@ -238,7 +238,7 @@
           <item>Library model</item>
         </list>
       </div>
-      <!--<div>
+      <!--<div type="slide">
         <head>Applications XTF</head>
         <list>
           <item>Ecrivains féminins victoriens <ptr
@@ -249,7 +249,7 @@
         </list>
       </div>-->
       
-      <div>
+      <div type="slide">
         <head>Search and analysis..</head>
         <p>Generic XML database systems<list>
             <item>baseX <ptr target="http://basex.org"/>
@@ -262,14 +262,14 @@
         <p rend="box"><emph>The</emph> solution par excellence for any project managing serious
           amounts of TEI XML data</p>
       </div>
-      <div>
+      <div type="slide">
         <head>A typical software architecture</head>
      
           <p><graphic url="../Images/exist-works-like-this.png"/></p>
           
         
       </div>
-      <div>
+      <div type="slide">
         <head>Examples... </head>
         <list>
           <item>Colonial Despatches: <ptr target="http://bcgenesis.uvic.ca/docsByDate.htm"/></item>
@@ -294,7 +294,7 @@
         
       </div>
       
-      <div>
+      <div type="slide">
         <head>Research tools</head>
         <p>Specialised tools developed for or by particular research communities are also
           increasingly using TEI as a base format or as an input format: 
@@ -307,7 +307,7 @@
           archival sources</item>
         </list>
          </div>
-    <!--  <div>
+    <!--  <div type="slide">
         <head><ptr target="http://textometrie.ens-lyon.fr/"/></head>
         <p>
           <graphic url="../Graphics/txm.png"/></p>
@@ -316,22 +316,22 @@
       </div>
 -->     
       
-    <!--  <div>
+    <!--  <div type="slide">
         <head><ptr target="http://cte.oeaw.ac.at/"/></head>
         <p>
           <graphic url="../Graphics/cte.png" height="90%"/></p>
       </div>
-      <div>
+      <div type="slide">
         <head><ptr target="http://www.histei.info"/></head>
         <p>
           <graphic url="../Graphics/hist.png" height="90%"/></p>
       </div>
-      <div>
+      <div type="slide">
         <head><ptr target="http://www.juxtasoftware.org"/></head>
         <p>
           <graphic url="../Graphics/juxta.png" height="80%"/></p>
       </div>
-      <div>
+      <div type="slide">
         <head><ptr target="http://v-machine.org/"/></head>
         <p>
           <graphic url="../Graphics/vmac.png" height="80%"/></p>
@@ -341,7 +341,7 @@
      
       
      
-      <div>
+      <div type="slide">
         <head>More examples ...</head>
         <p rend="box"> http://www.tei-c.org/Activities/Projects</p>
       </div>
@@ -349,7 +349,7 @@
      
       
       
-      <!--<div>
+      <!--<div type="slide">
         <head>Pérennisation et archivage </head>
 
         <p>
