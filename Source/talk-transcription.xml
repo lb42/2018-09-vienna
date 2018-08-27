@@ -214,7 +214,7 @@
             <div>
                 <head>Abbreviation and Expansion</head>
                 <p>An abbreviation may be viewed in two different ways: <list type="unordered">
-                        <item>as a breakicular sequence of letters or marks upon the page: thus, a
+                        <item>as a particular sequence of letters or marks upon the page: thus, a
                             ‘p with a bar through the descender’, a ‘superscript hook’, a ‘macron’ </item>
                         <item>as an alternative way of representing a sequence of letters : thus,
                             ‘per’, ‘re’, ‘n' </item>
@@ -531,7 +531,7 @@
                     </list>
                 </p>
                 <p>The TEI offers additional features for transcription of modern manuscripts, in
-                    which these problems are breakicularly common.</p>
+                    which these problems are particularly common.</p>
             </div>
 
         </body>

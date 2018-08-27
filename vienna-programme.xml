@@ -93,20 +93,20 @@
                <head>Sunday, 16 September</head>
                <list>
                   <item>Session 1a: Introduction to XML (DB), 16:00–16:30
-                     (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                     (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
                   <item>Session 1b: Introduction to TEI (LB), 16:30–17:30
-                     (<ref target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                     (<ref target="Slides/talk-tei.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
                </list>
             </div>
             <div>
                <head>Monday 17 September</head>
                <list>
                   <item>Session 2a: TEI Tools (LB), 9:00–9:30
-                     (<ref target="Slides/talk-tools.pdf">slides<graphic url="images/pdf.gif"/></ref>,
-                     <ref target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>) </item>
+                     (<ref target="Slides/talk-tools.pdf">slides<graphic url="Images/pdf.gif"/></ref>,
+                     <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) </item>
                   <item>Session 2b: Manuscript description (DB), 9:30–10:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
+                        url="Images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
                            (XML file)</item>
@@ -124,7 +124,7 @@
                      </list></item>
                   <item>Session 3: Manuscript description, continued (DB), 11:00–12:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
+                        url="Images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
                            (XML file)</item>
@@ -141,18 +141,18 @@
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
                   <item>Session 4a: Manuscript transcription (LB), 14:00–15:30
-                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>.
-                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="images/pdf.gif"/></ref>) </item>
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>.
+                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
                   <item>Session 4b: Manuscript transcription, continued (LB), 16:00–16:30
-                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>.
-                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="images/pdf.gif"/></ref>) </item>
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>.
+                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
                   <item>Session 5: Taking stock (DB + LB), 16:30–17:30 <list>
                         <item>Sample XML projects at
                            <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
                            <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
                            (<ref target="http://dh.obdurodon.org/course-projects.xhtml">student course projects</ref>)</item>
                         <item>What next
-                           (<ref target="Slides/what-next.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
+                           (<ref target="Slides/what-next.pptx.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
                      </list>
                   </item>
                </list>
@@ -198,7 +198,7 @@
                         <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/PH.html">Chapter 11: Representation of primary sources</ref></item>
                      </list></item>
                   <item><ref target="http://repertorium.obdurodon.org/Bojadziev_Scripta_11.pdf">Guidelines to Repertorium Initiative XML model for manuscript descriptions</ref>
-                     <graphic url="images/pdf.gif"/> (Andrej Bojadžiev, <title>Scripta &amp;
+                     <graphic url="Images/pdf.gif"/> (Andrej Bojadžiev, <title>Scripta &amp;
                         e-Scripta</title> 10–11 (2012): 9–103)</item>
                   <item>
                      <ref target="http://tei.it.ox.ac.uk/Talks/2008-08-kazan/"><title>Введение в TEI и XML</title></ref>
