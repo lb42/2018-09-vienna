@@ -80,31 +80,31 @@
             <!--
                1. Sun 16:00–17:30: XML and <oXygen/> (Vilnius 1. expanded; DJB), TEI (Vilnius 3, expanded; LB)
                2. Mon 9:00–10:30: 
-                  Transformation (Vilnius 9 and 10)), 9:00–9:30;
-                  Description (Vilnius 3–5), 9:30–10:30
+                  2a. Transformation (Vilnius 9 and 10)), 9:00–9:30;
+                  2b. Description (Vilnius 3–5), 9:30–10:30
                3. Mon 11:00–12:30: Description, continued(Vilnius 3–5)
                4. Mon 14:00–15:30: Transcription (Vilnius 6–8)
-               5. Mon 15:00–17:30:
-                  Transcription (Vilnius 6–8), continued, 15:00–15:30; 
-                  Applications (apply transformation from session 3 to manuscript materials),  15:30–16:30
+               5. Mon 16:00–17:30:
+                  5a. Transcription (Vilnius 6–8), continued, 16:00–16:30; 
+                  5b. Applications (apply transformation from session 3 to manuscript materials),  16:30–17:30
             -->
             <head>Workshop schedule</head>
             <div>
                <head>Sunday, 16 September</head>
                <list>
-                  <item>Session 1a: Introduction to XML (DB)
+                  <item>Session 1a: Introduction to XML (DB), 16:00–16:30
                      (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
-                  <item>Session 1b: Introduction to TEI (LB)
+                  <item>Session 1b: Introduction to TEI (LB), 16:30–17:30
                      (<ref target="Slides/talk-tei.pdf">slides<graphic url="images/pdf.gif"/></ref>)</item>
                </list>
             </div>
             <div>
                <head>Monday 17 September</head>
                <list>
-                  <item>Session 2: TEI Tools (LB)
+                  <item>Session 2a: TEI Tools (LB), 9:00–9:30
                      (<ref target="Slides/talk-tools.pdf">slides<graphic url="images/pdf.gif"/></ref>,
                      <ref target="Work/ex-xslt.pdf">exercise<graphic url="images/pdf.gif"/></ref>) </item>
-                  <item>Session 3: Manuscript description (DB)
+                  <item>Session 2b: Manuscript description (DB), 9:30–10:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
                         url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
@@ -122,10 +122,36 @@
                         <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
-                  <item>Session 4: Manuscript transcription
+               </list>
+            </div>
+            <div>
+               <head>Tuesday, 18 September</head>
+               <list>
+                  <item>Session 3: Manuscript description, continued (DB), 11:00–12:30
+                        (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
+                        url="images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="images/pdf.gif"/></ref>)<list>
+                        <item><hi>Don’t click; download:</hi>
+                           <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
+                           (XML file)</item>
+                        <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Section 10 of TEI P5: Manuscript description</ref></item>
+                        <item><ref target="http://eslavsanct.net/home.php?text=Sources"><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
+                        <item><ref target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2">The Gospels of Tsar Ivan Alexander</ref>
+                           (search for <q>Ivan Alexander</q>; UK, London, British Library, Add MS
+                           39627; in English)</item>
+                        <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s menologion</ref>
+                           (September, October, November; in Bulgarian)</item>
+                        <item>Manuscripts at
+                           <ref target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment Oxridski University, Sofia</ref></item>
+                        <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
+                           (in Icelandic; some content also in English and Danish)</item>
+                     </list></item>
+                  <item>Session 4a: Manuscript transcription (LB), 14:00–15:30
                      (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>.
                      <ref target="Work/ex-transcription.pdf">exercise <graphic url="images/pdf.gif"/></ref>) </item>
-                  <item>Session 5: Taking stock (DB) <list>
+                  <item>Session 4b: Manuscript transcription, continued (LB), 16:00–16:30
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="images/pdf.gif"/></ref>.
+                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="images/pdf.gif"/></ref>) </item>
+                  <item>Session 5: Taking stock (DB + LB), 16:30–17:30 <list>
                         <item>Sample XML projects at
                            <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
                            <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
@@ -202,9 +228,8 @@
                <head>Manuscript description</head>
                <p>Many on-line manuscript catalogues provide convenient search interfaces. Here are
                   a few that go beyond that, and might be considered models for how digital
-                  manuscript descriptions can support not just more convenient access, but also new
-                  types of analysis and visualization. All provide access to the underlying raw
-                  XML.</p>
+                  manuscript descriptions can support not just convenient access, but also new types
+                  of analysis and visualization. All provide access to the underlying raw XML.</p>
                <list>
                   <item>The
                      <ref target="http://repertorium.obdurodon.org">Repertorium of Old Bulgarian literature and letters</ref>
@@ -212,9 +237,8 @@
                      with tools for searching by repository information and by textual content. The
                      prototype
                      <ref target="http://repertorium.obdurodon.org/dev/test.xhtml">plectogram of Physiologus texts</ref>
-                     is an early view of functionality currently under development to adding
-                     drag-and-drop support to a graphic representation of textual correspondences
-                     within the corpus.</item>
+                     illustrates a graphic representation of textual correspondences within the
+                     corpus.</item>
                   <item>The goal of <ref target="http://www.e-codices.unifr.ch/">e-codices</ref>
                      (Virtual manuscript library of Switzerland) is to provide access to all
                      medieval and selected early modern manuscripts of Switzerland via a virtual
