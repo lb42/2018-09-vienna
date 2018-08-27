@@ -235,20 +235,11 @@
 
             <div rend="slide">
                 <head>Codex Suprasliensis 61r (119)</head>
-                <p><graphic url="../Images/abbrev-ba.png" width="360px"/>. </p>
-                <p>We can expand the entire abbreviation in the middle line above (<val>б꙯а</val>
-                    for <val>бога</val>) with <gi>abbr</gi> and <gi>expan</gi>: <egXML
-                        xmlns="http://www.tei-c.org/ns/Examples">
-                        <p>
-                            <lb/>и҅ глагол҄ꙙ· помилоуи҆ мꙙ рабе <choice>
-                                <abbr>б꙯а</abbr>
-                                <expan>бога</expan>
-                            </choice> вꙑшь҆-</p>
-                    </egXML>
-                </p>
-                <p>Here we tag the full abbreviated form, as it appears in the manuscript, as
-                        <gi>abbr</gi>, and the expansion supplied by the editor as <gi>expan</gi>.
-                    We can use <gi>abbr</gi> or <gi>expan</gi> alone, without the <gi>choice</gi>
+                <p><graphic url="../Images/abbrev-ba.png" width="90%"/></p>
+                <p>We can expand the entire abbreviation in the middle line above with <gi>abbr</gi>
+                    and <gi>expan</gi>:</p>
+                <p><graphic url="../Images/abbrev-ba-markup.png" width="90%"/>. </p>
+                <p>We can use <gi>abbr</gi> or <gi>expan</gi> alone, without the <gi>choice</gi>
                     wrapper, if we want to record just the abbreviation or just the expansion.</p>
             </div>
             <div>
@@ -274,12 +265,10 @@
             </div>
             <div rend="slide">
                 <head>Codex Suprasliensis 61r (119)</head>
+                <p><graphic url="../Images/abbrev-ba.png" width="90%"/></p>
                 <p>Instead of giving the full abbreviated and expanded forms, we can tag the parts
-                    with <gi>ex</gi> and <gi>am</gi>: <egXML
-                        xmlns="http://www.tei-c.org/ns/Examples">
-                        <p>
-                            <lb/>и҅ глагол҄ꙙ· помилоуи҆ мꙙ рабе б<am> ꙯</am><ex>ог</ex>а</p></egXML>
-                </p>
+                    with <gi>ex</gi> and <gi>am</gi>: </p>
+                <p><graphic url="../Images/am-ba-markup.png" width="90%"/></p>
                 <p>Here we tag the titlo as <gi>am</gi> (abbreviation mark) and the expansion added
                     by the editor as <gi>ex</gi>.</p>
             </div>
