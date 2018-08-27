@@ -46,7 +46,7 @@
             <div type="slide">
                 <head>Transcription: a special kind of reading</head>
                 <p><figure>
-                        <graphic url="../Images/ms5045recto.jpg"/>
+                        <graphic url="../Images/ms5045recto.jpg" width="80%"/>
                         <head>MS5045 Russian Musical Manuscript, from
                             http://faculty.goucher.edu/eng241/high_church_slavonic_leaf_images.htm</head>
                     </figure>
@@ -116,7 +116,7 @@
                 <p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>
                 <cb/>
 
-                <egXML xmlns="http://www.tei-c.org/ns/Examples" ><pb n="7r"/>
+               <!-- <egXML xmlns="http://www.tei-c.org/ns/Examples" ><pb n="7r"/>
                     <lb/>лота с҃новы своѥго. сьи 
                     <lb/>же вт<g>оо</g>рїи авраамь, изи 
                     <lb part="n"/>де на брань самого дїаво 
@@ -134,9 +134,9 @@
                     <lb part="n"/>н же видѣвь старостныѥ
                     <lb/>сѣдины ѥг<g>оо</g>, поразоумѣ 
                     <lb/>ꙗко блоуда ради вьпраша 
-                    <lb part="n"/>ѥть ѥѥ. потомь ѡтвеща</egXML>
+                    <lb part="n"/>ѥть ѥѥ. потомь ѡтвеща</egXML>-->
 
-             <!--   <p><graphic url="../Images/bdinski007r-markup.png" height="70%"/></p>-->
+            <p><graphic url="../Images/bdinski007r-markup.png" height="70%"/></p>
 
             </div>
 
@@ -417,13 +417,12 @@
                 <head>Damage to the carrier</head>
                 <p><graphic url="../Images/psnypl_berg_979-detail.jpg" height="50%"/></p>
                 <p>Use the <gi>damage</gi> element to record the existence of physical damage to the
-                    document, whether or not the damaged text is readable : <egXML
-                        xmlns="http://www.tei-c.org/ns/Examples"> IN the bosom <damage group="1"
-                            >o</damage>f one of those spa <lb n="2"/>cious coves wh<damage group="1"
-                            >ich inde</damage>nt the eastern <lb n="3"/>shore of the <damage
-                            group="1">Hudson, at </damage>that broad <lb n="4"/>expansion <damage
-                            group="1">of the r</damage>iver denominated <lb n="5"/>by the
-                            ancie<damage>nt</damage> Dutch navigators </egXML>
+                    document, whether or not the damaged text is readable : <egXML xmlns="http://www.tei-c.org/ns/Examples"> 
+                        IN the bosom <damage group="1">o</damage>f one of those spa 
+                        <lb n="2"/>cious coves wh<damage group="1">ich inde</damage>nt the eastern 
+                        <lb n="3"/>shore of the <damage group="1">Hudson, at </damage>that broad 
+                        <lb n="4"/>expansion <damage group="1">of the r</damage>iver denominated 
+                        <lb n="5"/>by the ancie<damage>nt</damage> Dutch navigators </egXML>
                     <!--<egXML xmlns="http://www.tei-c.org/ns/Examples">
                         <damage reason="illegible" quantity="3" unit="word"/>Sydney Smith</egXML>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><l>The Moving Finger wri<damage
