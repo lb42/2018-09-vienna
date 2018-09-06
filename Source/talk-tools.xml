@@ -65,10 +65,10 @@
       </div>
       <div type="slide">
         <head>What sort of TEI-XML tools do we need? </head>
-        <p>What might we want to do with a TEI XML document? <list>
+        <p>What might you want to do with a TEI XML document? <list>
             <item>create, modify, validate ...</item>
             <item>transform, display, visualise ...</item>
-            <item>search, analyse ...</item>
+            <item>search, analyse, mash-up ...</item>
             <item>store, preserve, archive, catalogue ...</item>
           </list>
         </p>
@@ -87,7 +87,7 @@
         </list>
       </div>
       <div type="slide">
-        <head>Transformation and visualisation</head>
+        <head>Transformation and visualisation of TEI-XML documents</head>
         <p> There is a widely-used library of XSLT <ident>TEI Stylesheets</ident>
           developed by Sebastian Rahtz : <list>
             <item>packaged by oXygen as a Framework</item>
@@ -99,7 +99,7 @@
           </list>
         </p>
       </div>
-      <div type="slide">
+   <!--   <div type="slide">
         <head>Pourquoi se servir des TEI Stylesheets</head>
         <list>
           <item>ils proposent des solutions aux difficultés que vous n'auriez pas (peut être) encore
@@ -121,7 +121,7 @@
             <item>ajouter une couche de personalisation (un <ident>profil</ident>) propre à son
               propre projet (probablement).</item>
           </list></p>
-      </div>
+      </div>-->
       <div type="slide">
         <head>Transformations already provided</head>
 
@@ -168,22 +168,21 @@
 
  </div>
       <div type="slide">
-        <head>Personalisation des TEI Stylesheets</head>
+        <head>Customizing the  TEI Stylesheets</head>
+        <p>The Stylesheets are designed to be customized... </p>
         <list type="gloss">
           <label>Profile</label>
-          <item>Permet de définir un ensemble de transformations spécifique à un projet, et de
-            l'interfacer avec un <term>framework</term> oXygen</item>
+          <item>you can set up a named bunch of transformations and store it as a
+            <term>framework</term> within oXygen (several examples come with the product) </item>
           <label>CSS </label>
-              <item>Une feuille de style CSS supplémentaire est conseillée pour les détails
-                d'affichage, polices etc. </item>
+              <item>you can use your own CSS stylesheet/s to manage details of how the output will
+                be displayed, on screen or in print </item>
 <label>Stylebear</label>
-              <item>Il y a une application <ident>styleBear</ident> pour faciliter la création d'une
-                personalisation http://www.tei-c.org/release/doc/tei-xsl/style.html</item>
-           
+          <item>you can use the   <ref
+            target="http://www.tei-c.org/release/doc/tei-xsl/style.html"><ident>styleBear</ident></ref> application to simplify generation of
+                a customized stylesheet </item>        
           <label>LaTeX</label>
-          <item>Il faut connaître (évidemment) LaTeX ! mais en partant de cela, la génération d'un
-            PDF de haute qualité est très simple (grace aux expertises considérables déjà existant
-            en ce qui concerne l'édition scientifique avec LaTex)</item>
+          <item>LaTeX users can generate high quality PDF output (requires knowledge of LaTeX)</item>
         </list>
       </div>
 
@@ -200,12 +199,12 @@
            <item>handling multiple scripts: Samyukta Agama (<ptr
             target="http://buddhistinformatics.ddbc.edu.tw/BZA/"/>)</item>
         </list></p>
-      </div>
-      
+    </div>
+           
       <div type="slide">
         <head>Digital publishing systems </head>
         <p>For the management, storage, search, and display of digital TEI editions there is now a
-          range of software solutions : <list>
+          variety of software solutions : <list>
             <item> Plug-ins for common CMS  ( Drupal, Zotero, Omeka) </item>
             <item> TEI specific systems (Kiln, TEI Boilerplate, CETEICEAN) </item>
             <item>General purpose document management systems (xtf, TEI Publisher)</item>
@@ -217,16 +216,10 @@
             <item>validation et modification</item>
             <item>transformation vers format de saisie d'une système PAO par ex inDesign</item>
           </list></p>-->
+        <p rend="box">For the most part, these are systems aimed at web developers, not end-users</p>
       </div>
-      
-      
-    <!--  <div type="slide">
-        <head><ptr target="http://xtf.cdlib.org"/>: createur de sites de bibliotheque numerique</head>
-        <p>
-          <graphic url="../Graphics/xtf.png"/></p>
-      </div>-->
       <div type="slide">
-        <head>XTF : a digital library creator</head>
+        <head>XTF : a digital library creator (for example)</head>
         
         <list>
           <item>Extensible Text Framework or XTF (<ptr
@@ -235,10 +228,36 @@
           <item>If you are already running Apache and Tomcat, and have access to a website, you can
             set up a default xtf application for TEI files in 5 minutes</item>
           <item>(more or less)</item>
-          <item>Library model</item>
+          <item>If not, the infrastructural overhead may seem prohibitive...</item>
         </list>
       </div>
-      <!--<div type="slide">
+      
+      <div rend="slide"><head>Some less-demanding tools</head>
+        <list>
+          <item>TEI Boilerplate</item>
+          <item>CETEICEAN</item>
+          <item>TEI Publisher</item>
+        </list>
+        <p>These require knowledge of how to upload pages to a website. That is all.</p></div>
+      <div
+          rend="slide"><head>TEI Publisher (for example)</head>
+        <list>
+          <item>visit <ptr target="http://http://tei-publisher.com"/> and click the <ident>try
+            it</ident> button</item><item>To upload a file, click "login" button (default user:
+              "tei", password: "simple")</item><item>scroll down to "Upload" dialogue (bottom
+                right)</item><item>Select a TEI XML file from the Work directory (try
+                  <ident>suprasliensis-tei.xml</ident>)</item><item>When the file is uploaded, click
+                  the <ident>goto</ident> link to see it displayed in various formats</item>
+        </list>
+        <p rend="box">To control the way your file is formatted, you need to supply an ODD containing
+          processing instructions : so you need only TEI knowledge</p></div>
+      
+    <!--  <div type="slide">
+        <head><ptr target="http://xtf.cdlib.org"/>: createur de sites de bibliotheque numerique</head>
+        <p>
+          <graphic url="../Graphics/xtf.png"/></p>
+      </div>-->
+            <!--<div type="slide">
         <head>Applications XTF</head>
         <list>
           <item>Ecrivains féminins victoriens <ptr
@@ -250,12 +269,14 @@
       </div>-->
       
       <div type="slide">
-        <head>Search and analysis..</head>
-        <p>Generic XML database systems<list>
+        <head>Bottom line: use the markup!</head>
+        <p>To take full advantage of the XML markup (for example, to search and analyse your
+          documents in terms of their markup) you are usually better off investing in a generic XML database
+          system, such as 
+        <list>
             <item>baseX <ptr target="http://basex.org"/>
             </item>
-            <item>eXist <ptr target="http://exist-db.org"/> (now packaged as TEI
-              Publisher)
+            <item>eXist <ptr target="http://exist-db.org"/> 
             </item>
           </list>
         </p>
