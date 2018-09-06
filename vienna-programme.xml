@@ -101,13 +101,14 @@
             <div>
                <head>Monday 17 September</head>
                <list>
-                  <item>Session 2a: TEI Tools (LB), 9:00–9:30
+                  <item>Session 2: TEI Tools (LB), 9:00–9:30
                      (<ref target="Slides/talk-tools.pdf">slides<graphic
                         url="Images/pdf.gif"/></ref>),
                   <!--   <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) --></item>
-                  <item>Session 2b: Manuscript description (DB), 9:30–10:30
+                  <item>Session 3a: Manuscript description (DB), 9:30–10:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="Images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
+                        url="Images/pdf.gif"/></item>
+                  <item>Session 3b: Manuscript description exercise (LB), 11:00-12:30 <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
                            (XML file)</item>
@@ -123,29 +124,13 @@
                         <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
-                  <item>Session 3: Manuscript description, continued (DB), 11:00–12:30
-                        (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="Images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
-                        <item><hi>Don’t click; download:</hi>
-                           <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
-                           (XML file)</item>
-                        <item><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">Section 10 of TEI P5: Manuscript description</ref></item>
-                        <item><ref target="http://eslavsanct.net/home.php?text=Sources"><title>Encyclopaedia Slavica Sanctorum</title></ref></item>
-                        <item><ref target="http://searcharchives.bl.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;doc=IAMS040-002891061&amp;displayMode=full&amp;vid=IAMS_VU2">The Gospels of Tsar Ivan Alexander</ref>
-                           (search for <q>Ivan Alexander</q>; UK, London, British Library, Add MS
-                           39627; in English)</item>
-                        <item><ref target="http://hagioslavica.com/en/manuscripts/">Stanislav’s menologion</ref>
-                           (September, October, November; in Bulgarian)</item>
-                        <item>Manuscripts at
-                           <ref target="http://lib.sudigital.org/collection/Manuscripts?ln=en">Kliment Oxridski University, Sofia</ref></item>
-                        <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
-                           (in Icelandic; some content also in English and Danish)</item>
-                     </list></item>
+                 
                   <item>Session 4a: Manuscript transcription (LB), 14:00–15:30
                      (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>.
-                     <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
-                  <item>Session 4b: Manuscript transcription, continued (LB), 16:00–16:30
-                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>.
+                 </item>
+                  <item>Session 4b: Manuscript transcription exercise (DB), 16:00–16:30
+                 <!--    (<ref target="Slides/talk-transcription.pdf">slides<graphic
+                        url="Images/pdf.gif"/></ref>.)-->
                      <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
                   <item>Session 5: Taking stock (DB + LB), 16:30–17:30 <list>
                         <item>Sample XML projects at
