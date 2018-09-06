@@ -92,9 +92,9 @@
             <div>
                <head>Sunday, 16 September</head>
                <list>
-                  <item>Session 1a: Introduction to XML (DB), 16:00–16:30
+                  <item>Session 1a: Introduction to XML (DB), 16:00–16:45
                      (<ref target="Slides/xml_intro.pptx.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
-                  <item>Session 1b: Introduction to TEI (LB), 16:30–17:30
+                  <item>Session 1b: Introduction to TEI (LB), 16:45–17:30
                      (<ref target="Slides/talk-tei.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
                </list>
             </div>
@@ -102,8 +102,9 @@
                <head>Monday 17 September</head>
                <list>
                   <item>Session 2a: TEI Tools (LB), 9:00–9:30
-                     (<ref target="Slides/talk-tools.pdf">slides<graphic url="Images/pdf.gif"/></ref>,
-                     <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) </item>
+                     (<ref target="Slides/talk-tools.pdf">slides<graphic
+                        url="Images/pdf.gif"/></ref>),
+                  <!--   <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) --></item>
                   <item>Session 2b: Manuscript description (DB), 9:30–10:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
                         url="Images/pdf.gif"/>, <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>

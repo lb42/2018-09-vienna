@@ -48,7 +48,7 @@
         </list>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Do you remember 1987 ?</head>
         <p>The Text Encoding Initiative was born into a very different world... <list rend="pause">
             <item rend="pause">The world wide web did not exist</item>
@@ -63,7 +63,7 @@
           </list></p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>... though some of it looks quite familiar ...</head>
         <list>
           <item>Such disciplines as <soCalled>corpus linguistics</soCalled> and <soCalled>artificial
@@ -79,7 +79,7 @@
         </list>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Origins of the Text Encoding Initiative</head>
         <list>
           <item>Spring 1987: European workshops on standardisation of historical data (J.P. Genet, M
@@ -95,7 +95,7 @@
 
 
 
-      <div>
+      <div type="slide">
         <head>Today's question:</head>
         <list>
           <item>If the TEI is <emph>very old</emph> ... </item>
@@ -128,7 +128,7 @@
             </list></item>
         </list>
       </div>
-      <div>
+      <div type="slide">
         <head>Its original design goals</head>
         <list>
           <item>provide <hi>recommendations</hi> derived from the existing consensus, where this
@@ -142,7 +142,7 @@
 
 
 
-      <div>
+      <div type="slide">
         <head>Why was this considered necessary ?</head>
         <figure>
           <graphic url="../Images/babel.jpg" height="65%"/>
@@ -155,7 +155,7 @@
       </div>
 
 
-      <div>
+      <div type="slide">
         <head>A TEI time line</head>
 
         <list type="gloss">
@@ -175,7 +175,7 @@
         </list>
       </div>
 
-      <div>
+      <div type="slide">
         <head>1988 : a period of transition</head>
         <list>
           <item><q>Humanities Computing</q> (later known as <q>Digital Humanities</q>) was beginning to invent itself, as a kind of
@@ -190,7 +190,7 @@
         <p rend="box">A fruitful synergy between researcher and engineer...</p>
       </div>
 
-      <!-- <div>
+      <!-- <div type="slide">
         <head>Which research areas in particular ?</head>
         <list type="unordered">
           <item> those concerned with the creation and analysis of machine-tractable text, for <list>
@@ -214,7 +214,7 @@
         </list>
       </div>
 -->
-      <div>
+      <div type="slide">
         <head>The Poughkeepsie Principles</head>
         <figure>
           <graphic height="80%" url="../Images/poughkeepsieprinciples.png"/>
@@ -223,7 +223,7 @@
       </div>
 
 
-      <!--   <div>
+      <!--   <div type="slide">
         <head>TEI then ...</head>
         <list>
           <item>Organized as a research project</item>
@@ -234,7 +234,7 @@
           <graphic url="../Images/1990-05-editors.jpg" height="70%"/>
         </figure>
       </div>-->
-      <div>
+      <div type="slide">
         <head>TEI organization (1991)</head>
         <figure>
           <graphic url="../Images/tei-structure-1991.png" height="90%"/>
@@ -251,7 +251,7 @@
        
       </div>
 
-      <!-- <div>
+      <!-- <div type="slide">
         <head>Text Documentation</head>
 
         <figure>
@@ -268,7 +268,7 @@
         </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Metalanguage</head>
         <figure>
           <graphic url="../Images/ml-mission.png"/>
@@ -293,7 +293,7 @@
       <!-\- link to modelling paper here? -\->
 
 
-      <div>
+      <div type="slide">
         <head>Text Representation</head>
         <figure>
           <graphic url="../Images/tr-mission.png"/>
@@ -303,7 +303,7 @@
         <p>Their mission : to identify and find names for the <soCalled>significant
             particularities</soCalled> of written texts of all periods.</p>
       </div>
-      <div>
+      <div type="slide">
         <head>Significant particularities</head>
         <list>
           <item>text organization, structure, and reference systems (paragraphs, lists...)</item>
@@ -316,7 +316,7 @@
         <p rend="box">What is text <hi>really</hi>? </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Analysis and Interpretation</head>
         <figure>
           <graphic url="../Images/ai-mission.png"/>
@@ -329,7 +329,7 @@
 
       </div>
 
-      <div>
+      <div type="slide">
         <head>The range of linguistic analysis</head>
         <p>See http://www.tei-c.org.uk/Vault/AI/air03.txt... <list>
             <item>Underspecification, uncertainty, multiple hierarchies...</item>
@@ -345,7 +345,7 @@
         </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>The EAGLES imperative</head>
         <p>A strong desire for standardisation of linguistic resources as part of the pressure
           to improve <soCalled>language engineering</soCalled> systems <list>
@@ -357,7 +357,7 @@
         <p>Sadly, a complete description of linguistic concepts remains elusive </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Feature structures</head>
         <p>Rather than a single standard set of linguistic descriptors, the TEI proposed a kind of
           "meta-model" which could be used to represent any kind of linguistic annotation. Such
@@ -379,7 +379,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
 1995, 191-209. </p>-\->
       </div>-->
 
-      <div>
+      <div type="slide">
         <head>Knocking their heads together</head>
         <p rend="box">What are the <soCalled>significant particularities</soCalled> of text in your
           domain? </p> 
@@ -396,7 +396,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
   <!--      <p rend="box">(This is another reason for not using TEI All!) </p>
 -->      </div>
 
-      <!--    <div>
+      <!--    <div type="slide">
         <head>From P1 to P3</head>
         <figure><graphic url="../Images/tei-p1-cover.png" height="90%"/></figure><cb/>
         <list><item>Nearly 1000 copies of P1 ("Proposals 1") were distributed between 1991-1992</item><item>
@@ -407,7 +407,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
         <!-\- photo of eynsham hall? <graphic url="../Images/1993_0513_01.jpg"/></figure>-\->
       </div>
 -->
-      <div>
+      <div type="slide">
         <head>1994 : P3</head>
 
 
@@ -423,7 +423,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
         </list>
       </div>
 
-      <div>
+      <div type="slide">
         <head>1994-1999</head>
         <p>The adoption of the TEI and the influence of its ideas are difficult to trace, because it
           so rapidly became an invisible part of the research infrastructure. Some key events : </p>
@@ -443,7 +443,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
           has the right and duty to maintain it?</p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>2000 : Birth of the TEI Consortium</head>
         <p>After much work by some key users of the TEI (notably DH centres in London, Virginia,
           Brown, Oxford, and Bergen) the TEI Consortium was incorporated as a not-for-profit
@@ -461,7 +461,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
         <p rend="box">http://www.ariadne.ac.uk/issue24/tei/</p>
       </div>
 
-      <!--  <div>
+      <!--  <div type="slide">
         <head>2001 : first annual meeting of the TEI Consortium (in Pisa)</head>
         <list>
           <item>TEI P4 announced and distributed</item>
@@ -471,7 +471,7 @@ Contexts</title>, special triple issue of <title>Computers and the Humanities</t
         </list>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Some things we did right</head>
         <p rend="box">(MSM, nov 2001)</p>
         <list>
@@ -517,7 +517,7 @@ working to keep them in synch *-\-></item>
 
 -->
       <!--
-      <div>
+      <div type="slide">
         <head>2001 : The TEI P5 Workplan</head>
 
         <p rend="box">(LB, Nov. 2001)</p>
@@ -564,13 +564,13 @@ working to keep them in synch *-\-></item>
         </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>And so ... </head>
         <figure>
           <graphic url="../Images/teiconchg.png"/>
         </figure>
       </div>
-      <div>
+      <div type="slide">
         <head>What's new in TEI P5?</head>
         <list>
           <item>authoring and tag documentation </item>
@@ -588,7 +588,7 @@ working to keep them in synch *-\-></item>
       </div>
 
 
-      <div>
+      <div type="slide">
         <head>Major development areas in practice</head>
         <p>New community groups worked on <list>
             <item>named entities for e.g. <soCalled>personographies</soCalled></item>
@@ -600,14 +600,14 @@ working to keep them in synch *-\-></item>
           experts</p>
       </div>
 -->
-      <div>
+      <div type="slide">
         <head>TEI organization (today)</head>
         <figure>
           <graphic height="80%" url="../Images/tei-community.png"/>
         </figure>
       </div>
 
-      <div>
+      <div type="slide">
         <head>The TEI is no longer a research project</head>
         <list>
           <item>A community-driven effort</item>
@@ -663,7 +663,7 @@ working to keep them in synch *-\-></item>
 
 
      
-      <div>
+      <div type="slide">
         <head>The TEI Architecture</head>
         <list type="unordered">
           <item> TEI is a <emph>modular</emph> system. You use it to create an encoding system that
@@ -678,10 +678,10 @@ working to keep them in synch *-\-></item>
           <item>You can add in non-TEI elements, either from other standards or completely new
           </item>
         </list>
-        <p rend="box">Define your goals clearly <emph>before</emph> trying to use the TEI !</p>
+        <p rend="box">Consequently, you should define your goals clearly <emph>before</emph> trying to use the TEI !</p>
       </div>
       
-      <div>
+      <div type="slide">
         <head>TEI modules</head>
         <table xml:id="tab-mods">
           <row>
@@ -778,7 +778,7 @@ working to keep them in synch *-\-></item>
           </row>
         </table>
       </div>
-      <div>
+      <div type="slide">
         <head>How do you choose?</head>
         <list>
           <item>Take the lot ! (not a very smart choice)</item>
@@ -794,19 +794,20 @@ working to keep them in synch *-\-></item>
         <p rend="box">http://www.tei-c.org/Roma/</p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>... leading to the many flavours of TEI</head>
-        <p>Suppose you want to encode a bibliographic description. The TEI makes you choose between :<list>
+        <p>Suppose you want to encode a bibliographic description. The TEI requires you to choose between :<list>
           <item><gi>bibl</gi> (contains any combination of bibliographic elements and text, or
             just text)</item>
-          <item><gi>biblStruct</gi> or <gi>biblFull</gi> (both containing a specific set of
-            bibliographic elements in a specific order and no text)</item>
-          <item>(and other things...) </item>
-        </list>
+          <item><gi>biblStruct</gi> or <gi>biblFull</gi> (each containing a specific -- different --
+            set of
+            bibliographic elements in a specific order and no text)</item><item>... or <gi>msdescription</gi> for
+              manuscripts or other text-bearing objects (which is completely different)</item>
+       </list>
         </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>But surely, a standard exists for the sake of conformance, right?</head>
         <figure>
           <graphic url="../Images/1991-TEI-commandments.png" height="70%"/>
@@ -814,7 +815,7 @@ working to keep them in synch *-\-></item>
       </div>
 
 
-      <div>
+      <div type="slide">
         <head>The TEI spirit</head>
         <p>So what does it mean to be conformant to the TEI ?</p>
         <list>
@@ -826,7 +827,7 @@ working to keep them in synch *-\-></item>
           terms I can understand »</p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>The TEI was designed to support many approaches</head>
         <p><graphic url="../Images/oddFlavours.png"/></p>
         <cb/>
@@ -838,13 +839,13 @@ working to keep them in synch *-\-></item>
       </div>
      
 
-      <div>
+      <div type="slide">
         <head>What does it mean to be <soCalled>TEI Conformant</soCalled>?</head>
         <list>
           <item><label>be honest</label>: every XML element claiming to belong to the TEI namespace
             should respect the semantics of its TEI definition <!-- eg l vs line --></item>
           <item><label>be explicit</label>: the formal documentation provided by a TEI ODD makes
-            make explicit how you have chosen to use the TEI</item>
+           explicit how you have chosen to use the TEI</item>
           <item>The TEI elements in a conformant TEI document must be valid with respect to the TEI
             All schema</item>
         </list>
@@ -852,7 +853,7 @@ working to keep them in synch *-\-></item>
           easier...  though they cannot guarantee it</p>
       </div>
      
-      <div>
+      <div type="slide">
         <head>Why is the TEI still of interest?</head>
         <list>
           <item>you could markup your text in HTML 5, or design your own tagging system</item>
@@ -864,7 +865,7 @@ working to keep them in synch *-\-></item>
           spot</soCalled>, midway between technology and the humanities</p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>Why is the TEI still of interest?</head>
 
         <p>There are two reasons why standards fail : <list>
@@ -874,7 +875,7 @@ working to keep them in synch *-\-></item>
         </p>
       </div>
 
-      <div>
+      <div type="slide">
         <head>How does one test a theory ?</head>
         <p>A TEI customisation can : <list>
             <item>control the possible values of attributes</item>
@@ -887,7 +888,7 @@ working to keep them in synch *-\-></item>
           conformant. </p>
       </div>
 
-      <!-- <div>
+      <!-- <div type="slide">
         <head>Addition d'éléments</head>
         <p>Un schema ressemble à une grammaire, déjà existante. Comment serait-il possible d'ajouter
           des termes nouveaux? </p>
@@ -907,7 +908,7 @@ working to keep them in synch *-\-></item>
         </list>
       </div>-->
 
-      <div>
+      <div type="slide">
         <head>Not Invented Here?</head>
         <list>
           <item>TEI P5 includes many I18N features ...</item>
@@ -926,7 +927,7 @@ working to keep them in synch *-\-></item>
       </div>
 
 
-      <div>
+      <div type="slide">
         <head>Darwinism works ...</head>
         <list>
           <item>Customize the TEI using your own namespace</item>
@@ -942,7 +943,7 @@ working to keep them in synch *-\-></item>
 
 
 
-      <div>
+      <div type="slide">
         <head>Some essential links</head>
         <list>
           <item><ptr target="http://www.tei-c.org"/></item>
