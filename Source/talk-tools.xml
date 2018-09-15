@@ -46,23 +46,7 @@
             and hence how to build the tools to make use of them.</item>
         </list>
       </div>
-      <div type="slide">
-        <head>Well, yes, but ..</head>
-        <p>The TEI Guidelines s'expriment en XML, comme toute application TEI</p>
-        <list>
-          <item>en principe, alors, n'importe quel logiciel conforme au norme XML nous
-            suffirait</item>
-          <item>mais il faut le construire! </item>
-        </list>
-        <p>La TEI a construit, pour ses propres besoins, un ensemble de feuilles de style XSLT, qui
-          permet: <list>
-            <item>la génération et la documentation des schémas TEI personalisées ("ODD")</item>
-            <item>la visualisation des documents TEI, à travers les formats actuellement les plus
-              répandus (XHTML, PDF, Word, Open Office, ePUB...)</item>
-            <item>une architecture générique pour la transformation entre documents TEI et d'autres
-              formats (Word, OO, Docbook etc.)</item>
-          </list></p>
-      </div>
+     
       <div type="slide">
         <head>What sort of TEI-XML tools do we need? </head>
         <p>What might you want to do with a TEI XML document? <list>
@@ -73,6 +57,28 @@
           </list>
         </p>
       </div>
+      <div><head>Word to TEI</head>
+      <p>With oXygen, for example</p>
+        <list>
+          
+          <item>Use the usual File Open (ctrl-o) dialog to select any docx file </item>
+          <item>A window labelled <code>Archive Browser</code> opens to the left of the main
+            screen. It shows the file structure of the docx archive.</item>
+      <!--    <item><graphic url="media/en/archive-browser.png" height="4cm"/></item>
+      -->    <item>Click the blue key next to the folder called <ident>word </ident> to see the
+            contents of this folder</item>
+     <!--     <item><graphic url="media/en/archive-browser-2.png" height="4cm"/></item>
+     -->     <item>Select the file called <ident> document.xml</ident> and double click to open it
+            (may take a few moments if the file is large)</item>
+          <item>With the <ident>document.xml</ident> file open in your main editing window,
+            select <ident>Transformation -> Configure Transformation Scenario(s)</ident> from
+            the <ident>Document</ident> menu. Or type <code>CTRL-SHIFT-C</code>. Or click the
+            little spanner icon</item>
+          <item>For the default DOCX to TEI conversion, check the little box next to DOCX TEI
+            P5 and press the <ident>Apply Associated</ident> button </item>
+        </list>
+     <p>This can also be done at the command line, or online using oxGarage</p>
+      </div>
       <div type="slide">
         <head>Creation and modification of TEI XML documents</head>
         <list>
@@ -81,15 +87,32 @@
             range of others, some of them free -- or just ask Google
           </item>
           <item>Documents created with ordinary office tools (Word, Open Office) can be
-            automatically converted to TEI XML, using Oxgarage, oXygen, etc.</item>
+            automatically converted to TEI XML</item>
           <item>Highly structured documents (metadata for example) can be captured by a form and
             output directly in TEI XML</item>
         </list>
       </div>
       <div type="slide">
+        <head>You are not alone</head>
+        <p>The TEI Guidelines are written in XML, like every other TEI application</p>
+        <list>
+          <item>so any XML-aware software can be used to process them
+          </item>
+          <item>but such software needs to be customized! </item>
+        </list>
+        <p>For its own needs, the TEI produced and now maintains a suite of  XSLT stylesheets which
+          supports : <list>
+            <item>generation and documentation of customised TEI schemas  ("ODD")</item>
+            <item>visualisation of arbitrary TEI documents, using commonly used formats 
+              (XHTML, PDF, Word, Open Office, ePUB...)</item>
+            <item>a generic transformation architecture, supporting TEI and other formats 
+            </item>
+          </list></p>
+      </div>
+      <div type="slide">
         <head>Transformation and visualisation of TEI-XML documents</head>
-        <p> There is a widely-used library of XSLT <ident>TEI Stylesheets</ident>
-          developed by Sebastian Rahtz : <list>
+        <p> The <ident>TEI Stylesheets</ident> library originally
+          developed by Sebastian Rahtz  and now maintained by the TEI: <list>
             <item>packaged by oXygen as a Framework</item>
             <item>free download from gitHub (<ptr target="https://github.com/TEIC/Stylesheets"
               /></item>
@@ -234,8 +257,8 @@
       
       <div rend="slide"><head>Some less-demanding tools</head>
         <list>
-          <item>TEI Boilerplate</item>
-          <item>CETEICEAN</item>
+          <item><ref target="http://teiboilerplate.org">TEI Boilerplate</ref></item>
+          <item><ref target="https://github.com/TEIC/CETEIcean">CETEIcean</ref></item>
           <item>TEI Publisher</item>
         </list>
         <p>These require knowledge of how to upload pages to a website. That is all.</p></div>
