@@ -106,7 +106,7 @@
                      <!--   <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) --></item>
                   <item>Session 3a: Manuscript description (DB), 9:30–10:30
                         (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="Images/pdf.gif"/></item>
+                        url="Images/pdf.gif"/>)</item>
                   <item>Session 3b: Manuscript description exercise (LB), 11:00-12:30 <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
@@ -125,7 +125,7 @@
                      </list></item>
 
                   <item>Session 4a: Manuscript transcription (LB), 14:00–14:45
-                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>. </item>
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
                   <item>Session 4b: Manuscript transcription exercise (DB), 14:45-15:30 <!--    (<ref target="Slides/talk-transcription.pdf">slides<graphic
                         url="Images/pdf.gif"/></ref>.)-->
                      <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
