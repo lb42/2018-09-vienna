@@ -76,8 +76,7 @@
       <div>
         <head>Sample projects</head>
         <list>
-          <!-- TODO: Link to TEI-related projects -->
-          <item><ref target="http://www.tei-c.org/Activities/Projects/">http://www.tei-c.org/Activities/Projects/</ref></item>
+            <item><ref target="http://www.tei-c.org/Activities/Projects/">http://www.tei-c.org/Activities/Projects/</ref></item>
           <item><ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref></item>
           <item><ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref> (student
             projects)</item>
@@ -113,8 +112,8 @@
           <item>XML technologies and digital humanities: David J. Birnbaum’s University of
             Pittsburgh “Computational methods in the humanities” <ref
               target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref></item>
-          <item>Text Encoding Initiative: <ref target="http://www.tei-c.org"
-              >http://www.tei-c.org</ref></item>
+          <item>Text Encoding Initiative: <ref target="http://www.tei-c.org/support/Learn/"
+              >Learn TEI page</ref></item>
           <item>XML and web technologies, etc.: <ref target="http://w3schools.com"
               >http://w3schools.com</ref></item>
         </list>
@@ -126,14 +125,14 @@
           <item>Alliance of digital humanities organizations (ADHO): <ref
               target="http://digitalhumanities.org">http://digitalhumanities.org</ref>
           </item>
-          <item>Association for computers and the humanities (ACH): <ref target="http://www.ach.org"
+        <!--  <item>Association for computers and the humanities (ACH): <ref target="http://www.ach.org"
               >http://www.ach.org</ref>
           </item>
-          <!-- TODO: Update name -->
+          <!-\- TODO: Update name -\->
           <item>Association for literary and linguistic computing (ALLC): <ref
               target="http://www.allc.org">http://www.allc.org</ref>
           </item>
-          <item>The Text Encoding Initiative (TEI): <ref target="http://www.tei-c.org"
+-->          <item>The Text Encoding Initiative (TEI): <ref target="http://www.tei-c.org"
               >http://www.tei-c.org</ref>
           </item>
           <item>Digital medievalist: <ref target="http://www.digitalmedievalist.org"
@@ -159,36 +158,35 @@
       </div>
 
       <div>
-        <head>Journals</head>
+        <head>Some current journals</head>
         <list>
           <item>
-            <!-- TODO: Add JTEI link and title -->
-            <title>Journal of the Text encoding initiative</title>: <ref target="http://journal.tei-c.org">http://journal.tei-c.org
+             <title>Journal of the Text Encoding Initiative</title>: <ref target="http://journal.tei-c.org">http://journal.tei-c.org
         </ref>
           </item>
-          <item><title>Digital humanities quarterly</title>: <ref
+          <item><title>Digital Humanities Quarterly</title>: <ref
               target="http://digitalhumanities.org/dhq/">http://digitalhumanities.org/dhq/</ref>
           </item>
-          <item><title>Digital medievalist journal</title>: <ref
+          <item><title>Digital Medievalist Journal</title>: <ref
               target="http://www.digitalmedievalist.org/journal/"
               >http://www.digitalmedievalist.org/journal/</ref>
           </item>
-          <item><title>Digital studies</title>: <ref target="http://www.digitalstudies.org"
+          <item><title>Digital Studies</title>/<title xml:lang="fr-ca">Le champ numérique</title>: <ref target="http://www.digitalstudies.org"
               >http://www.digitalstudies.org</ref>
           </item>
-          <item><!-- TODO: rename journal -->
-            <title>Literary and linguistic computing</title>: <ref
-              target="http://llc.oxfordjournals.org">http://llc.oxfordjournals.org</ref>
+          <item>
+            <title>Digital Scholarship in the Humanities</title> (formerly <title>Literary and linguistic computing</title>: <ref
+              target="http://llc.oxfordjournals.org">https://academic.oup.com/dsh</ref>
           </item>
           <item><title>Language resources and evaluation</title> (formerly <title>Computers and the
-              humanities</title>, 1966-2004): <ref
+              humanities</title>): <ref
               target="http://www.springerlink.com/content/1574-020x/"
               >http://www.springerlink.com/content/1574-020x/</ref>
-          </item>
-          <item><title>Text technology</title>: <ref target="http://texttechnology.mcmaster.ca"
+          </item><item><title>Journal of Cultural Analytics</title> <ref target="http://culturalanalytics.org/">http://culturalanalytics.org/</ref> </item>
+        <!--  <item><title>Text Technology</title>: <ref target="http://texttechnology.mcmaster.ca"
               >http://texttechnology.mcmaster.ca</ref>
           </item>
-        </list>
+  --><!-- not published since 2007 -->      </list>
       </div>
 
       <div>
