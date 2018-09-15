@@ -135,13 +135,9 @@
                            <ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref> and
                            <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
                            (<ref target="http://dh.obdurodon.org/course-projects.xhtml">student course projects</ref>)</item>
-                        <item>What next
-<<<<<<< HEAD
-                           (<ref target="Slides/talk-wrapup.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
-=======
-                           (<ref target="Slides/talk-wrap-up.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
->>>>>>> a48343c2139aab56e27c29b5886078444a130b07
-                     </list>
+                        <item>What's next?
+
+                           (<ref target="Slides/talk-wrapup.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item></list>
                   </item>
                </list>
             </div>
