@@ -4,8 +4,9 @@
     <fileDesc>
       <titleStmt>
         <title>What’s next?</title>
-   <!--     <author>David J. Birnbaum</author>
-  -->    </titleStmt>
+        <author>David J. Birnbaum</author>
+        <author>Lou Burnard</author>
+      </titleStmt>
       <publicationStmt>
         <publisher>Unpublished</publisher>
       </publicationStmt>

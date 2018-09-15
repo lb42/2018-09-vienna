@@ -291,7 +291,7 @@
         <list>
           <item>Attribute <code>name="value"</code> pair</item>
           <item><code>&lt;place xml:lang="fr"&gt;Paris&lt;/place&gt;</code></item>
-          <item><code>&lt;title type="journal"&gt;Scripta &amp;
+          <item><code>&lt;title type="journal"&gt;Scripta &amp;amp;
             e-Scripta&lt;/title&gt;</code></item>
         </list>
         <p>Attribute names are subject to the same rules as element names</p>

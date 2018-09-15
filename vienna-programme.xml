@@ -102,12 +102,11 @@
                <head>Monday 17 September</head>
                <list>
                   <item>Session 2: TEI Tools (LB), 9:00–9:30
-                     (<ref target="Slides/talk-tools.pdf">slides<graphic
-                        url="Images/pdf.gif"/></ref>),
-                  <!--   <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) --></item>
+                     (<ref target="Slides/talk-tools.pdf">slides<graphic url="Images/pdf.gif"/></ref>),
+                     <!--   <ref target="Work/ex-xslt.pdf">exercise<graphic url="Images/pdf.gif"/></ref>) --></item>
                   <item>Session 3a: Manuscript description (DB), 9:30–10:30
-                        (<ref target="Slides/manuscript-description.pptx.pdf">slides</ref><graphic
-                        url="Images/pdf.gif"/></item>
+                        (<ref target="Slides/talk-description.pdf">slides</ref><graphic
+                        url="Images/pdf.gif"/>)</item>
                   <item>Session 3b: Manuscript description exercise (LB), 11:00-12:30 <ref target="Work/ex-msdesc.pdf">exercise<graphic url="Images/pdf.gif"/></ref>)<list>
                         <item><hi>Don’t click; download:</hi>
                            <ref target="Work/Enina.xml">Description of the <title>Enina Apostol</title></ref>
@@ -124,12 +123,10 @@
                         <item><ref target="http://handrit.is/">Catalog of Icelandic manuscripts at the Árni Magnússon Institute, Reykjavík</ref>
                            (in Icelandic; some content also in English and Danish)</item>
                      </list></item>
-                 
+
                   <item>Session 4a: Manuscript transcription (LB), 14:00–14:45
-                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>.
-                 </item>
-                  <item>Session 4b: Manuscript transcription exercise (DB), 14:45-15:30
-                 <!--    (<ref target="Slides/talk-transcription.pdf">slides<graphic
+                     (<ref target="Slides/talk-transcription.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
+                  <item>Session 4b: Manuscript transcription exercise (DB), 14:45-15:30 <!--    (<ref target="Slides/talk-transcription.pdf">slides<graphic
                         url="Images/pdf.gif"/></ref>.)-->
                      <ref target="Work/ex-transcription.pdf">exercise <graphic url="Images/pdf.gif"/></ref>) </item>
                   <item>Session 5: Taking stock (DB + LB), 16:00–17:30 <list>
@@ -138,7 +135,11 @@
                            <ref target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref>
                            (<ref target="http://dh.obdurodon.org/course-projects.xhtml">student course projects</ref>)</item>
                         <item>What next
+<<<<<<< HEAD
                            (<ref target="Slides/talk-wrapup.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
+=======
+                           (<ref target="Slides/talk-wrap-up.pdf">slides<graphic url="Images/pdf.gif"/></ref>)</item>
+>>>>>>> a48343c2139aab56e27c29b5886078444a130b07
                      </list>
                   </item>
                </list>
