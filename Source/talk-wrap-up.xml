@@ -4,8 +4,8 @@
     <fileDesc>
       <titleStmt>
         <title>What’s next?</title>
-        <author>David J. Birnbaum</author>
-      </titleStmt>
+   <!--     <author>David J. Birnbaum</author>
+  -->    </titleStmt>
       <publicationStmt>
         <publisher>Unpublished</publisher>
       </publicationStmt>
@@ -16,6 +16,10 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change>
+        <date>2018-09-15</date>
+        <name>Revised for Vienna</name>
+      </change>
       <change>
         <date>2016-08-21</date>
         <name>First version</name>
@@ -42,19 +46,21 @@
       </div>
 
       <div>
-        <head>Manuscript catalogues</head>
+        <head>Some notable manuscript catalogues</head>
         <list>
           <item>e-codices (Switzerland): <ref target="http://www.e-codices.unifr.ch/"
               >http://www.e-codices.unifr.ch/</ref></item>
           <item>Handrit (Icelandic materials): <ref target="http://handrit.is/en/"
-              >http://handrit.is/en/</ref></item>
+            >http://handrit.is/en/</ref></item>
+          <item>FIHRIST (Islamic materials) <ref target="https://www.fihrist.org.uk/">https://www.fihrist.org.uk/</ref></item>
           <item>Repertorium (Slavic materials) <ref target="http://repertorium.obdurodon.org"
-            >http://repertorium.obdurodon.org</ref></item><item>Manuscriptorium <ref target="http://www.manuscriptorium.com/">http://www.manuscriptorium.com/</ref></item>
+            >http://repertorium.obdurodon.org</ref></item>
+          <item>Manuscriptorium <ref target="http://www.manuscriptorium.com/">http://www.manuscriptorium.com/</ref></item>
         </list>
       </div>
 
       <div>
-        <head>Digital technologies</head>
+        <head>Digital technologies: acronyms to remember</head>
         <p>XML-related programming languages</p>
         <list>
           <item>XPath, XSLT, XQuery</item>
@@ -65,15 +71,17 @@
         </list>
         <p>Web technologies</p>
         <list>
-          <item>HTML, CSS, JavaScript, PHP</item>
+          <item>(X)HTML, CSS, JavaScript, PHP</item>
+          <item>JSON, Python, Ruby</item>
+          
         </list>
-        <p>Other</p>
+     <!--   <p>Other</p>
         <list>
           <item>NoSQL databases: graph, relational</item>
-        </list>
+        </list>-->
       </div>
 
-      <div>
+    <!--  <div>
         <head>Sample projects</head>
         <list>
             <item><ref target="http://www.tei-c.org/Activities/Projects/">http://www.tei-c.org/Activities/Projects/</ref></item>
@@ -82,9 +90,9 @@
             projects)</item>
         </list>
       </div>
-
+-->
       <div>
-        <head>Summer institutes</head>
+        <head>Summer schools</head>
         <p>Northeastern (formerly Brown) University Women Writers Project</p>
         <list>
           <item><ref target="http://www.wwp.northeastern.edu/outreach/seminars/"
@@ -112,8 +120,11 @@
           <item>XML technologies and digital humanities: David J. Birnbaum’s University of
             Pittsburgh “Computational methods in the humanities” <ref
               target="http://dh.obdurodon.org">http://dh.obdurodon.org</ref></item>
+          
+          <item>TEI By Example <ref target="http://teibyexample.org/">http://teibyexample.org/</ref></item>
           <item>Text Encoding Initiative: <ref target="http://www.tei-c.org/support/Learn/"
               >Learn TEI page</ref></item>
+          
           <item>XML and web technologies, etc.: <ref target="http://w3schools.com"
               >http://w3schools.com</ref></item>
         </list>
@@ -187,7 +198,12 @@
               >http://texttechnology.mcmaster.ca</ref>
           </item>
   --><!-- not published since 2007 -->      </list>
-      </div>
+     </div><div><head>TEI community resources</head>
+       <list><item>The TEI Wiki : <ref target="https://wiki.tei-c.org/index.php/Main_Page">https://wiki.tei-c.org</ref></item>
+       
+       <item>The TEI-L discussion list : 
+         <list><item><ref target="https://listserv.brown.edu/archives/cgi-bin/wa?SUBED1=tei-l&amp;A=1">Subscribe</ref></item>
+           <item><ref target="https://listserv.brown.edu/archives/cgi-bin/wa?A0=tei-l">Browse</ref></item></list></item></list></div>
 
       <div>
         <head>Thank you!</head>
