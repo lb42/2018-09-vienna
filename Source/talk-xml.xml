@@ -195,7 +195,7 @@
         <head>Elements</head>
         <p>Elements have matching start and end tags</p>
         <list>
-          <item><tag>title</tag> … <tag>title/</tag></item>
+          <item><tag>title</tag> … <tag>/title</tag></item>
         </list>
         <p>Some elements are empty and self-closing, e.g., <tag>bookmark/</tag></p>
         <p>Element names must begin with a letter and may contain letters, digits, and underscores
