@@ -6,50 +6,50 @@
         <link rel="stylesheet" type="text/css" href="http://www.obdurodon.org/css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/vienna.css" />
         <style type="text/css">
-            h2{
+            h2 {
                 counter-reset: h3;
             }
-            h3{
+            h3 {
                 counter-reset: h4;
             }
-            h3:before{
+            h3:before {
                 counter-increment: h3;
                 content: counter(h3) '. ';
             }
-            h4{
+            h4 {
                 counter-reset: h5;
             }
-            h4:before{
+            h4:before {
                 counter-increment: h4;
                 content: counter(h3) '.' counter(h4) '. ';
             }
-            h5:before{
+            h5:before {
                 counter-increment: h5;
                 content: counter(h3) '.' counter(h4) '.' counter(h5) '. ';
             }
             #contents,
-            #contents ol{
+            #contents ol {
                 list-style: none;
             }
-            #contents > li{
+            #contents > li {
                 counter-increment: contents-1;
             }
-            #contents > li:before{
+            #contents > li:before {
                 content: counter(contents-1) '. ';
             }
-            #contents > li > ol > li{
+            #contents > li > ol > li {
                 counter-increment: contents-2;
             }
-            #contents > li > ol > li:before{
+            #contents > li > ol > li:before {
                 content: counter(contents-1) '.' counter(contents-2) '. ';
             }
-            #contents > li > ol > li > ol > li{
+            #contents > li > ol > li > ol > li {
                 counter-increment: contents-3;
             }
-            #contents > li > ol > li > ol > li:before{
+            #contents > li > ol > li > ol > li:before {
                 content: counter(contents-1) '.' counter(contents-2) '.' counter(contents-3) '. ';
             }
-            #schedule > p{
+            #schedule > p {
                 font-weight: bold;
                 font-size: larger;
             }</style>
@@ -74,8 +74,8 @@
                 <!--#echo var="LAST_MODIFIED" --></span>
         </p>
         <hr />
-        <h2>Manuscript transcription exercise</h2>
         <section>
+            <h2>Manuscript transcription exercise</h2>
             <ol id="contents">
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#analysis">Document analysis, 1</a></li>
@@ -115,12 +115,12 @@
         </section>
         <section id="analysis">
             <h3>Document analysis, 1</h3>
-            <p>As discussed in the <a href="../Slides/talk-xml.pdf">first (XML) session of our workshop</a>,
-                the first step in creating an XML document, before you type any angle brackets, is
-                document analysis. Look over the images and transcription and plan the project from
-                at least two perspectives: the large, overall structure (e.g., folios and lines) and
-                the small, in-line idiosyncrasies (e.g., corrections, insertions, personal names,
-                etc.).</p>
+            <p>As discussed in the <a href="../Slides/talk-xml.pdf">first (XML) session of our
+                    workshop</a>, the first step in creating an XML document, before you type any
+                angle brackets, is document analysis. Look over the images and transcription and
+                plan the project from at least two perspectives: the large, overall structure (e.g.,
+                folios and lines) and the small, in-line idiosyncrasies (e.g., corrections,
+                insertions, personal names, etc.).</p>
             <p>The TEI is designed to provide resources from which you, the developer, can select
                 those that are appropriate to your materials and your research goals, so you are not
                 expected to tag everything that is taggable. With that said, projects are likely to
