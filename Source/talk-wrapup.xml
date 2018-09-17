@@ -208,6 +208,11 @@
 
       <div>
         <head>Thank you!</head>
+        <p>A reminder: the website for this course is
+        <ptr target="http://vienna.obdurodon.org"/>. The associated 
+          github repository
+        is at http://github.com/lb42/2018-09-vienna. Feel free to
+        revisit either, and send us your comments! </p>
         <p>David J. Birnbaum
           <lb/><ref target="mailto:djbpitt@gmail.com">djbpitt@gmail.com</ref>
           <lb/><ref target="http://www.obdurodon.org">http://www.obdurodon.org</ref></p>
