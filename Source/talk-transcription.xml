@@ -116,7 +116,7 @@
                 <p><graphic url="../Images/bdinski007r.jpg" height="90%"/></p>
                 <cb/>
 
-               <!-- <egXML xmlns="http://www.tei-c.org/ns/Examples" ><pb n="7r"/>
+                <!-- <egXML xmlns="http://www.tei-c.org/ns/Examples" ><pb n="7r"/>
                     <lb/>лота с҃новы своѥго. сьи 
                     <lb/>же вт<g>оо</g>рїи авраамь, изи 
                     <lb part="n"/>де на брань самого дїаво 
@@ -136,7 +136,7 @@
                     <lb/>ꙗко блоуда ради вьпраша 
                     <lb part="n"/>ѥть ѥѥ. потомь ѡтвеща</egXML>-->
 
-            <p><graphic url="../Images/bdinski007r-markup.png" height="70%"/></p>
+                <p><graphic url="../Images/bdinski007r-markup.png" height="60%"/></p>
 
             </div>
 
@@ -178,13 +178,14 @@
                 </figure>
                 <p>There is no Unicode character for the ligatured <val>oo</val> here: we tag it as
                     a <gi>g</gi>:</p>
-             <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <!--<egXML xmlns="http://www.tei-c.org/ns/Examples">
                     <lb/>на мѣст<g ref="#ooLig">oo</g>. и вьшедь вь
                     <lb/>гостинницю. гледаше
                     <lb/>само и ѡнам<g ref="#ooLig">oo</g> хоте видѣ
-                    <lb break="no"/>ти. вьсклабив же се рече </egXML>
-            <!--    <p><graphic url="../Images/bdinski007r-detail-markup.png" width="60%"/></p>
-           -->     <p><code>#ooGlyph</code> points to a description of the glyph, provided in the TEI
+                    <lb break="no"/>ти. вьсклабив же се рече 
+             </egXML>-->
+                <p><graphic url="../Images/bdinski007r-detail-markup.png" width="60%"/></p>
+                <p><code>#ooLig</code> points to a description of the glyph, provided in the TEI
                     header.</p>
             </div>
             <!--
@@ -279,8 +280,8 @@
                 <p>Instead of giving the full abbreviated and expanded forms, we can tag the parts
                     with <gi>ex</gi> and <gi>am</gi>: </p>
                 <p><graphic url="../Images/am-ba-markup.png" width="90%"/></p>
-                <p>Here we tag the titlo as <gi>am</gi> (<q>abbreviation mark</q>) and the expansion added
-                    by the editor as <gi>ex</gi>.</p>
+                <p>Here we tag the titlo as <gi>am</gi> (<q>abbreviation mark</q>) and the expansion
+                    added by the editor as <gi>ex</gi>.</p>
             </div>
             <div type="slide">
                 <head>Types of abbreviation</head>
@@ -403,7 +404,7 @@
             </div>
             <div type="slide">
                 <head>Semi-legible text</head>
-                <p> Use <gi>unclear</gi> if the text is breakly illegible i.e. it can be read but
+                <p> Use <gi>unclear</gi> if the text is partly illegible, i.e., it can be read but
                     without perfect confidence. </p>
                 <p>
                     <graphic url="../Images/mightshould.png" width="80%"/>
@@ -417,12 +418,13 @@
                 <head>Damage to the carrier</head>
                 <p><graphic url="../Images/psnypl_berg_979-detail.jpg" height="50%"/></p>
                 <p>Use the <gi>damage</gi> element to record the existence of physical damage to the
-                    document, whether or not the damaged text is readable : <egXML xmlns="http://www.tei-c.org/ns/Examples"> 
-                        IN the bosom <damage group="1">o</damage>f one of those spa 
-                        <lb n="2"/>cious coves wh<damage group="1">ich inde</damage>nt the eastern 
-                        <lb n="3"/>shore of the <damage group="1">Hudson, at </damage>that broad 
-                        <lb n="4"/>expansion <damage group="1">of the r</damage>iver denominated 
-                        <lb n="5"/>by the ancie<damage>nt</damage> Dutch navigators </egXML>
+                    document, whether or not the damaged text is readable : <egXML
+                        xmlns="http://www.tei-c.org/ns/Examples"> IN the bosom <damage group="1"
+                            >o</damage>f one of those spa <lb n="2"/>cious coves wh<damage group="1"
+                            >ich inde</damage>nt the eastern <lb n="3"/>shore of the <damage
+                            group="1">Hudson, at </damage>that broad <lb n="4"/>expansion <damage
+                            group="1">of the r</damage>iver denominated <lb n="5"/>by the
+                            ancie<damage>nt</damage> Dutch navigators </egXML>
                     <!--<egXML xmlns="http://www.tei-c.org/ns/Examples">
                         <damage reason="illegible" quantity="3" unit="word"/>Sydney Smith</egXML>
                     <egXML xmlns="http://www.tei-c.org/ns/Examples"><l>The Moving Finger wri<damage
@@ -471,13 +473,13 @@
                 <egXML xmlns="http://www.tei-c.org/ns/Examples">…Dragging the worst among<supplied
                         reason="authorialError" cert="high">s</supplied>t us…</egXML>
                 <p>Attributes can be used to qualify the information further: <list>
-                        <item><att>reason</att>why the text has had to be supplied (any word) </item>
-                        <item><att>source</att>source (if any) from which the text was taken (a
+                        <item><att>reason</att> why the text has had to be supplied (any word) </item>
+                        <item><att>source</att> source (if any) from which the text was taken (a
                             pointer)</item>
                         <item>
                             <att>resp</att> who is responsible for supplying this markup (a
                             pointer)</item>
-                        <item><att>cert</att>the degree of certainty associated with the markup
+                        <item><att>cert</att> the degree of certainty associated with the markup
                             (high, medium, or low)</item>
                     </list></p>
             </div>
@@ -486,8 +488,9 @@
 
                 <!--  <p>Material supplied by a transcriber (for example to fill a lacuna)  should be
                     marked up using <gi>supplied</gi> rather than <gi>gap</gi>. </p>                -->
-                <p>Here, "#DJB" has decided to fill a lacuna in the source being transcribed using
-                    material from edition "ed23" : <graphic url="../Images/supplied-eg.png" height="70%"/>
+                <p>Here, "#djb" has decided to fill a lacuna in the source being transcribed using
+                    material from edition "ed23" : <graphic url="../Images/supplied-eg.png"
+                        height="70%"/>
                     <!-- <egXML xmlns="http://www.tei-c.org/ns/Examples">
                     
                         ...расѣдша се. и ѡ<lb break="no"/>брѣтени* быти голоубици 
@@ -508,7 +511,8 @@
             </div>
             <div>
                 <head>Supplied text (3)</head>
-                <p>Alternatively, a <gi>gap</gi> element could be used to show that text is missing:</p>
+                <p>Alternatively, a <gi>gap</gi> element could be used to show that text is
+                    missing:</p>
                 <p><graphic url="../Images/gap.png"/></p>
             </div>
 
